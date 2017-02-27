@@ -1,11 +1,16 @@
 # Cost
 
-## Objective
-
 ## Questionnaire
-1. What is the base price?
-1. What is the maximum quantity of users?
-1. What is the price per additional user?
-1. If the platform has an expiration time, how long is it?
+
+For each plan defined by the vendor, answer:
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Base price | Monetary value / Free |  |
+| 2 | Maximum quantity of users | Integer value / Unlimited  |  |
+| 3 | Price per additional user | Monetary value / Not applicable |  |
+| 4 | Expiration time | Period of time / Not applicable |  |
+| 5 | Additional information | Relevant information about cost |  |
+
 
 _[(Back to EuD Technology Evaluation Page)](../eud_technology_evaluation)_

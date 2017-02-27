@@ -2,7 +2,7 @@
 
 ## Questionnaire
 
-| ID | Context | Answer | Observations |
+| ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 1 | Which features does the platform have? | Description of the main features | |
 | 2 | Which features are described on platform's official media but were not found during the evaluation? | List of missed features / Not applicable | |
