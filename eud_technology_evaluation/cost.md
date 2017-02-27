@@ -10,6 +10,7 @@ For each plan defined by the vendor, answer:
 | 2 | Maximum quantity of users | Integer value / Unlimited  |  |
 | 3 | Price per additional user | Monetary value / Not applicable |  |
 | 4 | Expiration time | Period of time / Not applicable |  |
-| 5 | Additional information | Relevant information about cost |  |
+| 5 | Average cost to integrate tools or plug-ins | Monetary value / Not applicable |  |
+| 6 | Additional information | Relevant information about cost |  |
 
 _[(Back to EuD Technology Evaluation Page)](../eud_technology_evaluation)_
