@@ -1,3 +1,5 @@
+_[(Voltar)](../eud_technology_evaluation)_
+
 # Application Domain
 1. Which features does the platform have?
 1. Which features are described on platform's official media but were not found during the evaluation?
@@ -7,3 +9,5 @@
   * Request-handling
   * Process
   * General-purpose
+
+	_[(Voltar)](../eud_technology_evaluation)_
