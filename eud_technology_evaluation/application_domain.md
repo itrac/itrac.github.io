@@ -11,5 +11,4 @@
 ## References
 * Richardson, Clay; Rymer, John R. (2016). "Low-Code Development Platforms". The Forrester Wave. Cambridge, MA.
 
-
 _[(Back to EuD Technology Evaluation Page)](../eud_technology_evaluation)_

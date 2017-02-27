@@ -18,7 +18,6 @@
 | 12 | Are collaborators advised when other collaborators change an artifact? | Yes / No |  |
 | 13 | Is it possible to recover from the negative effects of conflicts generated? | Yes / No |  |
 
-
 ## References
 
 _[(Back to EuD Technology Evaluation Page)](../eud_technology_evaluation)_

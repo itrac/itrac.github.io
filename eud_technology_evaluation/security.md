@@ -1,22 +1,23 @@
 # Security
 
-## Objective
-
 ## Questionnaire
-1. Is it required authentication in order to use the platform?
-1. Is it show a password quality in registry?
-1. Is it impossible to save session information?
-1. The session has expiration timer?
-1. If the platform accepts file upload, was checked the file type, size?
-1. If the platform accepts file upload, was checked if content match with file type?
-1. Is it possible to analyze vulnerabilities of the developed application inside the platform?
-1. Exists documentation, messages, or notifications that explains about developed application's security?
-1. The platform notify when it has updates?
-1. Is it possible to configure automatic updates?
-1. Is it possible to select which information will be sent in a report message?
-1. Is it possible to create hash using the platform's cryptography library?
-1. Is it possible to encrypt/decrypt a message using the platform's cryptography library?
-1. Which are the versions the platform use of: SSL and cryptography algorithms (if possible)
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Is it required authentication in order to use the platform? | Yes / No |  |
+| 2 | Is it show a password quality in registry? | Yes / No |  |
+| 3 | Is it impossible to save session information? | Yes / No / Not applicable |  |
+| 4 | The session has expiration timer? | Yes / No / Not applicable |  |
+| 5 | If the platform accepts file upload, is it check file type and size? | Yes / No / Not Applicable |  |
+| 6 | If the platform accepts file upload, is it check if the content match with file type? | Yes / No / Not Applicable |  |
+| 7 | Is it possible to analyze vulnerabilities of the developed application inside the platform? | Yes / No |  |
+| 8 | Exists documentation, messages, or notifications that explains about developed application's security? | Yes / No |  |
+| 9 | The platform notify when it has updates? | Yes / No |  |
+| 10 | Is it possible to configure automatic updates? | Yes / No / Not applicable |  |
+| 11 | Is it possible to select which information will be sent in a report message? | Yes / No / Not applicable |  |
+| 12 | Is it possible to create hash using the platform's cryptography library? | Yes / No |  |
+| 13 | Is it possible to encrypt/decrypt a message using the platform's cryptography library? | Yes / No  |  |
+| 14 | What is the version of SSL the platform use? | SSL Version / Not applicable  |  |
 
 ## References
 

@@ -12,5 +12,4 @@ For each plan defined by the vendor, answer:
 | 4 | Expiration time | Period of time / Not applicable |  |
 | 5 | Additional information | Relevant information about cost |  |
 
-
 _[(Back to EuD Technology Evaluation Page)](../eud_technology_evaluation)_
