@@ -18,7 +18,7 @@
 | 10 | Is it possible to determine a coordinator of real time collaboration? | Yes/No/Not Applicable | |
 | 11 | Is there support to feedback and evaluations of collaborations? | Yes/No | If the answer is yes, explain how |
 | 12 | Are collaborators advised when other collaborators change an artifact? | Yes/No |  |
-| 13 | Is it possible to recover from the negative effects of conflicts generated? |  |
+| 13 | Is it possible to recover from the negative effects of conflicts generated? | Yes/No |  |
 
 
 ## References
