@@ -4,11 +4,11 @@
 
 ## Questionnaire
 
-|------+-----------------------------------------------------+------------------+-------------------+|
-| Item | Question | Answer | Observations |
-|:-----|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Is it possible to share components with other users? | Yes/No | If the answer is yes, explain how |
-|------+-----------------------------------------------------+------------------+-------------------+|
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Is it possible to share components with other collaborators? | Yes/No | If the answer is yes, explain how |
+| 2 | Each collaborator can coordinate yourself? | Yes/No | If the answer is yes, explain how |
+
 
 ## References
 
