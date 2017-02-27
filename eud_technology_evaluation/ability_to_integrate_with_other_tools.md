@@ -1,5 +1,3 @@
-_[(Voltar)](../eud_technology_evaluation)_
+# Ability To Integrate With Other Tools
 
-# X
-
-_[(Voltar)](../eud_technology_evaluation)_
+_[(Back to EuD Technology Evaluation Page)](../eud_technology_evaluation)_

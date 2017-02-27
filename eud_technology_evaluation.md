@@ -1,6 +1,8 @@
-# About
+# EuD Technology Evaluation
 
-# Evaluation Dimensions
+## About
+
+## Evaluation Dimensions
 * [Application Domain](/eud_technology_evaluation/application_domain)
 * [Maintainability](/eud_technology_evaluation/maintainability)
 * [Cost](/eud_technology_evaluation/cost)
@@ -13,6 +15,6 @@
 * [Collaboration](/eud_technology_evaluation/data_management)
 * [Hardware & Software Configuration](/eud_technology_evaluation/hardware_software_configuration)
 
-# Evaluation Cases
+## Evaluation Cases
 * [Oracle Apex](/eud_technology_evaluation/oracle_apex_evaluation)
 * [OutSystems](/eud_technology_evaluation/outsystems_evaluation)
