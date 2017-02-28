@@ -1,4 +1,4 @@
-# EuD Technology Evaluation
+# EUD Technology Evaluation
 
 ## About
 
