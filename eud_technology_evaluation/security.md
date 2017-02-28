@@ -8,7 +8,7 @@
 |:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
 | 1 | Is it required authentication in order to use the platform? | Yes / No |  | Governance / Platform |
 | 2 | Is it show a password quality in registry? | Yes / No |  | Governance / Platform |
-| 3 | Is it impossible to save session information? | Yes / No / Not applicable |  | Governance / Platform |
+| 3 | Is it not possible to keep multiple and simultaneous sessions? | Yes / No / Not applicable |  | Governance / Platform |
 | 4 | Is it possible to keep multiple and simultaneous sessions? | Yes / No / Not applicable |  | Governance / Platform |
 | 5 | The session has expiration timer? | Yes / No / Not applicable |  | Governance / Platform |
 
@@ -45,7 +45,7 @@
 |:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
 | 13 | Is it possible to create hash using the platform's cryptography library? | Yes / No |  | EUD / Platform |
 | 14 | Is it possible to encrypt/decrypt a message using the platform's cryptography library? | Yes / No  |  | EUD / Platform |
-| 15 | What is the version of SSL the platform use? | SSL Version / Not applicable  |  | EUD / Platform |
+| 15 | What is the version of SSL/TLS the platform use? | SSL/TLS Version / Not applicable  |  | EUD / Platform |
 
 ## References
 
