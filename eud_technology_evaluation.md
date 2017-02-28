@@ -13,6 +13,7 @@
 * [Reliability](/eud_technology_evaluation/reliability)
 * [Collaboration](/eud_technology_evaluation/collaboration)
 * [Hardware & Software Configuration](/eud_technology_evaluation/hardware_software_configuration)
+* [Performance](/eud_technology_evaluation/performance)
 * [Usability](/eud_technology_evaluation/usability)
 
 ## Evaluation Cases

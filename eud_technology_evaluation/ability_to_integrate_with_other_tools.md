@@ -2,7 +2,7 @@
 
 ## Questionnaire
 
-### Interoperation Features
+### Connectivity with External Component/System
 
 | ID | Question | Answer | Observations | Point of View |
 |:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
