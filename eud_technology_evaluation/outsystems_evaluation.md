@@ -16,14 +16,21 @@
 
 ## Maintainability
 
+### Modifiability
+
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 1 | Can the maintainer easily modify the application in order to solve an issue? | Yes |  |
-| 2 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | ~120 seconds | Module: Google Places at Forge Library |
-| 3 | If found the module, how many changes on application were necessary in order to use it? | 3 | Link the Forge module in the application, create a new field, link the field with the Forge module |
-| 4 | How many modules/components can be exported from the scenario application? | Not applicable | The scenario does not have modules that can be exported |
-| 5 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | at least 2 | Link the module with the application, link the module with the field/context |
-| 6 | If it is possible to reuse an exported module, can the user change it? | Yes | |
+| 2 | If found the module, how many changes on application were necessary in order to use it? | 3 | Link the Forge module in the application, create a new field, link the field with the Forge module |
+| 3 | If it is possible to reuse an exported module, can the user change it? | Yes | |
+
+### Reusability
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 4 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | ~120 seconds | Module: Google Places at Forge Library |
+| 5 | How many modules/components can be exported from the scenario application? | Not applicable | The scenario does not have modules that can be exported |
+| 6 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | at least 2 | Link the module with the application, link the module with the field/context |
 
 ## Cost
 
@@ -51,14 +58,23 @@
 
 ## Vendor Dependency
 
+### Contract dependency
+
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 1 | Is it required a contract or formal negotiation in order to use the platform? | Yes | It is required a contract in order to use all the OutSystems features |
-| 2 | Is it required to purchase a plan or bundle in order to use the platform? | Yes | The contract is based in a plan with function points limit. There is no concrete information about sanctions in case of contract termination or when exceeds the function points limit.  |
+| 2 | Is it required to purchase a plan or bundle in order to use the platform? | Yes | The contract is based in a plan with function points limit. There is no concrete information about sanctions in case of contract termination or when exceeds the function points limit. |
+
+* **Result**: 100%
+
+### Technology dependency
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
 | 3 | Is the platform restricts the complete access to the developed application? | No | OutSystems API features, like plugins or services created by the company or the community, are accessible only inside the platform |
 | 4 | Is it required to use the platform in order to deploy the final developed application? | No |  |
 
-* **Result**: 50%
+* **Result**: 0%
 
 ## Ability to Integrate with Other Tools
 

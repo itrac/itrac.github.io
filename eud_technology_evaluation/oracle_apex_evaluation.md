@@ -4,49 +4,44 @@
 
 1. Which features does the platform have?
 
-  **A:** Oracle Apex enables the building of database-driven web applications using graphic elements with wide compatibility with another Oracle’s tools.
-  Furthermore, Oracle Apex provides a base applications library with varied contexts, like: data analysis and graphics generation; stock control; employer's control; calendar; among others.
-  The EuD could start a project with one of the base applications and progress in development making modifications in the base functionality, could also increase new functionality.
-  For experienced developers, Oracle Apex has an IDE (Integrated Development Environment) with full support to SQL, PL/SQL, Javascript and basic web languages, integration with Web SOAP and REST APIs services, further the responsive interfaces with jQuery Mobile.
-  The integration with Oracle’s database enables access to powerful functionality like data mining, spatial database, RAS, among others.
-  * data analysis
-  * graphics generation
-  * stock control
-  * employer's control
-  * calendar
-  * data mining
-  * spatial database
-  * RAS
-  * integration with Web SOAP and REST APIs services
-  * responsive interfaces with jQuery Mobile
+    **A:** Oracle Apex enables the building of database-driven web applications using graphic elements with wide compatibility with another Oracle’s tools. Furthermore, Oracle Apex provides a base applications library with varied contexts, like: data analysis and graphics generation; stock control; employer's control; calendar; among others. The EuD could start a project with one of the base applications and progress in development making modifications in the base functionality, could also increase new functionality. For experienced developers, Oracle Apex has an IDE (Integrated Development Environment) with full support to SQL, PL/SQL, Javascript and basic web languages, integration with Web SOAP and REST APIs services, further the responsive interfaces with jQuery Mobile. The integration with Oracle’s database enables access to powerful functionality like data mining, spatial database, RAS, among others.
+      * data analysis
+      * graphics generation
+      * stock control
+      * employer's control
+      * calendar
+      * data mining
+      * spatial database
+      * RAS
+      * integration with Web SOAP and REST APIs services
+      * responsive interfaces with jQuery Mobile
+      * security evaluation
 
 1. Which features are described on platform's official media but were not found during the evaluation?
 
-  **A:** Not applicable
+    **A:** Not applicable
 
 1. According to the platform's features, what is the category of the platform?
 
-  **A:** Database
+    **A:** Database
 
 ## Maintainability
 
 ### Modifiability
 
-
 | ID | Question | Answer | Observations | Point of View |
 |:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
 | 1 | Can the maintainer easily modify the application in order to solve an issue? | Yes |  | EUD / Platform |
-| 2 | If found the module, how many changes on application were necessary in order to use it? | 3 | Create a table to maps; Import the plug-in in 'shared components'; Create a new page or Add the plugin in other page; | EUD / Platform |
+| 2 | If found the module, how many changes on application were necessary in order to use it? | 4 | Create a table to maps; Import the plug-in in 'shared components'; Create a new page as modal; Add link on another page; | EUD / Platform |
 | 3 | If it is possible to reuse an exported module, can the user change it? | Yes |  | EUD / Platform |
 
 ### Reusability
 
-
 | ID | Question | Answer | Observations | Point of View |
 |:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 1 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | ~180 seconds | module: GooglePlaces Mark | EUD / Platform |
-| 2 | How many modules/components can be exported from the scenario application? | 1 | The complete application can be exported as an module: User + GooglePlaces | EUD / Platform |
-| 3 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | 1 step | Import the application in workspace | EUD / Platform |
+| 4 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | ~180 seconds | plug-in: GooglePlaces Mark | EUD / Platform |
+| 5 | How many modules/components can be exported from the scenario application? | 1 | The complete application can be exported as an module: User registry + GooglePlaces | EUD / Platform |
+| 6 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | 1 step | Import the application in workspace | EUD / Platform |
 
 
 ## Cost
@@ -104,7 +99,7 @@
 
 | ID | Question | Answer | Observations | Point of View |
 |:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 4 | How much technical experience is necessary in order to perform integrations? | Average and Advanced | **Average** o use and Oracle suport like Oracle JET; <br>  **Advanced** to use javaScript and Css(e.g. Youtube, Paypal, Amazon S3, To outlook, google services) | EUD / Platform |
+| 4 | How much technical experience is necessary in order to perform integrations? | Average and Advanced | **Average** to use and Oracle suport like Oracle JET; <br>  **Advanced** to use javaScript and Css(e.g. Youtube, Paypal, Amazon S3, To outlook, google services) | EUD / Platform |
 
 #### Data Exchangeability
 
@@ -180,9 +175,9 @@
 
 | ID | Question | Answer | Observations | Point of View |
 |:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 3 | If it is possible to import data from files, which types of files are supported? | TXT, XML and CSV |  | EUD / Platform |
+| 3 | If it is possible to import data from files, which types of files are supported? | TXT, XML, CSV and SQL |  | EUD / Platform |
 | 4 | If it is possible to export data to files, which types of files are supported? | CSV |  | EUD / Platform |
-| 5 | Does the platform enable data transaction with external systems? If so, which protocols are supported to send and/or retrieve data? | Yes | Local SQL tables and Web Services with SOAP and REST protocols | Governance / Platform |
+| 5 | Does the platform enable data transaction with external systems? If so, which protocols are supported to send and/or retrieve data? | Yes | Send data: Web Services with REST protocols; Retrieve data: REST and SOAP | Governance / Platform |
 
 #### Required Technical Knowledge
 
@@ -206,7 +201,7 @@
 
 | ID | Context | Answer | Observations | Point of View |
 |:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 3 | Which releases were chosen to be analyzed? | 4 and 5.1 | 2200 days | IT Manager / Platform |
+| 3 | Which releases were chosen to be analyzed? | from 4.0 to 5.1 | 2200 days | IT Manager / Platform |
 | 4 | What is the average time for a platform's new release? | 179,58 (SD = 117,86) | | IT Manager / Platform |
 | 5 | What is the average defects in each platform's release? | Not applicable | Vendor don't share the bugs report for each release, only the cumulative know issues | IT Manager / Platform |
 | 6 | What is the average of fixes in each platform's release? | 73,46 (SD = 56,89) | | IT Manager / Platform |
@@ -539,8 +534,8 @@
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
-| 14.1 | All non-text content that is presented to the user has a text alternative that serves the equivalent purpose. | Yes |  |
-| 14.2 | Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.  | Yes |  |
+| 14.1 | All non-text content that is presented to the user has a text alternative that serves the equivalent purpose. | No |  |
+| 14.2 | Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.  | No |  |
 | 14.3 | All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.  | No |  |
 | 14.4 | If keyboard focus can be moved to a component using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away. | No |  |
 | 14.5 | If content can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.  | Yes |  |
@@ -558,7 +553,7 @@
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 15.1 | Glossaries are available for reference and consistency check | No |  |
 | 15.2 | Previously translated products are available for reference | Yes |  |
-| 15.3 | Date and time is properly formatted for target region | Yes |  |
+| 15.3 | Date and time is properly formatted for target region | No |  |
 | 15.4 | Colors are appropriate for the target market and express the desired message | Yes |  |
 | 15.5 | Currency conversions and formats are handled properly | Not applicable |  |
 | 15.6 | Terminology is consistent across the UI, help files and documentation | Yes |  |
@@ -569,7 +564,7 @@
 | 15.11 | Basic functionality tests were performed on the localized application | Not applicable |  |
 | 15.12 | Hiperlinks function properly | Yes |  |
 | 15.13 | Entry fields support special characters | Yes |  |
-| 15.14 | Validation of fields works properly (e.g. postal codes) | Yes |  |
+| 15.14 | Validation of fields works properly (e.g. postal codes) | No |  |
 | 15.15 | Lists are sorted according to target language and region | Yes |  |
 
 
