@@ -2,29 +2,51 @@
 
 ## Application Domain
 
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 1 | Which features does the platform have? |Oracle Apex enables the building of database-driven web applications using graphic elements with wide compatibility with another Oracle’s tools. <br> Furthermore, Oracle Apex provides a base applications library with varied contexts, like: data analysis and graphics generation; stock control; employer's control; calendar; among others. <br> The EuD could start a project with one of the base applications and progress in development making modifications in the base functionality, could also increase new functionality. <br> For experienced developers, Oracle Apex has an IDE (Integrated Development Environment) with full support to SQL, PL/SQL, Javascript and basic web languages, integration with Web SOAP and REST APIs services, further the responsive interfaces with jQuery Mobile. <br> The integration with Oracle’s database enables access to powerful functionality like data mining, spatial database, RAS, among others. |<ul><li>data analysis</li><li>graphics generation</li><li>stock control</li><li>employer's control</li><li>calendar</li><li>data mining</li><li>spatial database</li><li>RAS</li><li>integration with Web SOAP and REST APIs services</li><li>responsive interfaces with jQuery Mobile</li></ul>| Governance / Platform |
-| 2 | Which features are described on platform's official media but were not found during the evaluation? | Not applicable |  | Governance / Platform |
-| 3 | According to the platform's features, what is the category of the platform? | Database |  | Governance / Platform |
+1. Which features does the platform have?
+
+  **A:** Oracle Apex enables the building of database-driven web applications using graphic elements with wide compatibility with another Oracle’s tools.
+  Furthermore, Oracle Apex provides a base applications library with varied contexts, like: data analysis and graphics generation; stock control; employer's control; calendar; among others.
+  The EuD could start a project with one of the base applications and progress in development making modifications in the base functionality, could also increase new functionality.
+  For experienced developers, Oracle Apex has an IDE (Integrated Development Environment) with full support to SQL, PL/SQL, Javascript and basic web languages, integration with Web SOAP and REST APIs services, further the responsive interfaces with jQuery Mobile.
+  The integration with Oracle’s database enables access to powerful functionality like data mining, spatial database, RAS, among others.
+  * data analysis
+  * graphics generation
+  * stock control
+  * employer's control
+  * calendar
+  * data mining
+  * spatial database
+  * RAS
+  * integration with Web SOAP and REST APIs services
+  * responsive interfaces with jQuery Mobile
+
+1. Which features are described on platform's official media but were not found during the evaluation?
+
+  **A:** Not applicable
+
+1. According to the platform's features, what is the category of the platform?
+
+  **A:** Database
 
 ## Maintainability
 
 ### Modifiability
 
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Can the maintainer easily modify the application in order to solve an issue? | Yes |  |
-| 2 | If found the module, how many changes on application were necessary in order to use it? | 3 | Create a table to maps; Import the plug-in in 'shared components'; Create a new page or Add the plugin in other page; |
-| 3 | If it is possible to reuse an exported module, can the user change it? | Yes |  | |
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 1 | Can the maintainer easily modify the application in order to solve an issue? | Yes |  | EUD / Platform |
+| 2 | If found the module, how many changes on application were necessary in order to use it? | 3 | Create a table to maps; Import the plug-in in 'shared components'; Create a new page or Add the plugin in other page; | EUD / Platform |
+| 3 | If it is possible to reuse an exported module, can the user change it? | Yes |  | EUD / Platform |
 
 ### Reusability
 
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | ~180 seconds | module: GooglePlaces Mark |
-| 2 | How many modules/components can be exported from the scenario application? | 1 | The complete application can be exported as an module: User + GooglePlaces |
-| 3 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | 1 step | Import the application in workspace | |
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 1 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | ~180 seconds | module: GooglePlaces Mark | EUD / Platform |
+| 2 | How many modules/components can be exported from the scenario application? | 1 | The complete application can be exported as an module: User + GooglePlaces | EUD / Platform |
+| 3 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | 1 step | Import the application in workspace | EUD / Platform |
 
 
 ## Cost
@@ -74,7 +96,7 @@
 | ID | Question | Answer | Observations | Point of View |
 |:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
 | 1 | Is integration possible? | Yes |  | EUD / Platform |
-| 2 | Which tools can be integrated? | <ul><li>JavaScript and CSS</li><li>Oracle Access Manager</li><li>Google services (e.g. maps, calendar)</li><li>Paypal</li><li>RSS feeds</li><li>YouTube</li><li>Ms sharepoint</li><li>Outlook</li><li>Amazon S3</li><li>Oracle JET</li></ul> |  | EUD / Platform |
+| 2 | Which tools can be integrated? | JavaScript and CSS; Oracle Access Manager; Google services (e.g. maps, calendar); Paypal; RSS feeds; YouTube; Ms sharepoint; Outlook; Amazon S3; Oracle JET. |  | EUD / Platform |
 | 3 | What are the integration methods supported by the platform? | Remote Procedures Call, Service Oriented Integration, Messaging |  | EUD / Platform |
 
 
@@ -82,7 +104,7 @@
 
 | ID | Question | Answer | Observations | Point of View |
 |:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 4 | How much technical experience is necessary in order to perform integrations? | Average and Advanced | To use javaScript and Css and Oracle suport like (e.g. Youtube, Paypal, Amazon S3)<br>To outlook, google services is advanced | EUD / Platform |
+| 4 | How much technical experience is necessary in order to perform integrations? | Average and Advanced | **Average** o use and Oracle suport like Oracle JET; <br>  **Advanced** to use javaScript and Css(e.g. Youtube, Paypal, Amazon S3, To outlook, google services) | EUD / Platform |
 
 #### Data Exchangeability
 
@@ -174,20 +196,21 @@
 
 ### Availability
 
-| ID | Context | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Platform's failure log count | Not applicable | Log not available |
-| 2 | Reliability by log | Not applicable | Log not available |
+
+| ID | Context | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 1 | Platform's failure log count | Not applicable | Log not available | IT Manager / Platform |
+| 2 | Reliability by log | Not applicable | Log not available | IT Manager / Platform |
 
 ### Vendor Support
 
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 3 | Which releases were chosen to be analyzed? | 4 and 5.1 | 2200 days |
-| 4 | What is the average time for a platform's new release? | 179,58 (SD = 117,86) | |
-| 5 | What is the average defects in each platform's release? | Not applicable | Vendor don't share the bugs report for each release, only the cumulative know issues |
-| 6 | What is the average of fixes in each platform's release? | 73,46 (SD = 56,89) | |
-| 7 | What is the total number of fixes in each platform's release? | 955 |  |
+| ID | Context | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 3 | Which releases were chosen to be analyzed? | 4 and 5.1 | 2200 days | IT Manager / Platform |
+| 4 | What is the average time for a platform's new release? | 179,58 (SD = 117,86) | | IT Manager / Platform |
+| 5 | What is the average defects in each platform's release? | Not applicable | Vendor don't share the bugs report for each release, only the cumulative know issues | IT Manager / Platform |
+| 6 | What is the average of fixes in each platform's release? | 73,46 (SD = 56,89) | | IT Manager / Platform |
+| 7 | What is the total number of fixes in each platform's release? | 955 |  | IT Manager / Platform |
 
 ## Collaboration
 
@@ -255,9 +278,9 @@
 | 2 | Processor | 550 MHz | |
 | 3 | Disk space | 700 MB | |
 | 4 | Software dependencies | Don't have | |
-| 5 | Protocols | <ul><li>PL/SQL gateway</li><li>Oracle HTTP Server</li><li>mod_plsql</li></ul> | |
+| 5 | Protocols | PL/SQL gateway <br> Oracle HTTP Server <br> mod_plsql | |
 | 6 | Operating system | Windows 7 or higher | |
-| 7 | Database | <ul><li>Oracle9i release 2 (9.2) or higher</li><li>Oracle9i Application Server R1 (1.0.2.2) or higher</li><li>Oracle Database 10g R1 or R2</li><li>Oracle Database 11g R1</li></ul> | |
+| 7 | Database | Oracle9i release 2 (9.2) or higher <br> Oracle9i Application Server R1 (1.0.2.2) or higher <br> Oracle Database 10g R1 or R2 <br> Oracle Database 11g R1 | |
 | 8 | Alternative technologies | Not Applicable | |
 
 ## Usability
