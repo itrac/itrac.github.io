@@ -2,8 +2,6 @@
 
 ## Application Domain
 
-### Questionnaire
-
 | ID | Question | Answer | Observations | Point of View |
 |:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
 | 1 | Which features does the platform have? |Oracle Apex enables the building of database-driven web applications using graphic elements with wide compatibility with another Oracle’s tools. <br> Furthermore, Oracle Apex provides a base applications library with varied contexts, like: data analysis and graphics generation; stock control; employer's control; calendar; among others. <br> The EuD could start a project with one of the base applications and progress in development making modifications in the base functionality, could also increase new functionality. <br> For experienced developers, Oracle Apex has an IDE (Integrated Development Environment) with full support to SQL, PL/SQL, Javascript and basic web languages, integration with Web SOAP and REST APIs services, further the responsive interfaces with jQuery Mobile. <br> The integration with Oracle’s database enables access to powerful functionality like data mining, spatial database, RAS, among others. |<ul><li>data analysis</li><li>graphics generation</li><li>stock control</li><li>employer's control</li><li>calendar</li><li>data mining</li><li>spatial database</li><li>RAS</li><li>integration with Web SOAP and REST APIs services</li><li>responsive interfaces with jQuery Mobile</li></ul>| Governance / Platform |
@@ -12,42 +10,64 @@
 
 ## Maintainability
 
+### Modifiability
+
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Can the maintainer easily modify the application in order to solve an issue? | Yes / No |  |
-| 2 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | Time expended / Not applicable |  |
-| 3 | If found the module, how many changes on application were necessary in order to use it? | Integer value / Not applicable |  |
-| 4 | How many modules/components can be exported from the scenario application? | Integer value / Not applicable |  |
-| 5 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | Description of the steps performed / Not applicable |  |
-| 6 | If it is possible to reuse an exported module, can the user change it? | Yes /No / Not applicable |  |
+| 1 | Can the maintainer easily modify the application in order to solve an issue? | Yes |  |
+| 2 | If found the module, how many changes on application were necessary in order to use it? | 3 | Create a table to maps; Import the plug-in in 'shared components'; Create a new page or Add the plugin in other page; |
+| 3 | If it is possible to reuse an exported module, can the user change it? | Yes |  | |
+
+### Reusability
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | ~180 seconds | module: GooglePlaces Mark |
+| 2 | How many modules/components can be exported from the scenario application? | 1 | The complete application can be exported as an module: User + GooglePlaces |
+| 3 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | 1 step | Import the application in workspace | |
+
 
 ## Cost
 
-### Questionnaire
+### License 'user'
 
-| ID | Context | license 'user' | license 'processor' | Observations | Point of View |
+| ID | Context | Answer |   Observations | Point of View |
 |:---|:---------------|:-------|:--------|:------------------|:----------|
-| 1 | Base price | 3.297,00 | 164.839,00 |  | Governance / Platform |
-| 2 | Maximum quantity of users | 1 | negociable |  Each connection is count as a user to **processor** license | Governance / Platform |
-| 3 | Price per additional user | 3.297,00 | Not applicable |  | Governance / Platform |
-| 4 | Expiration time | Permanent | Permanent |  | Governance / Platform |
-| 5 | Average cost to integrate tools or plug-ins | Not applicable |Not applicable |  | Governance / Platform |
-| 6 | Additional information | Is possible choose a period to this license | Is possible to choose a period to this license |  | Governance / Platform |
+| 1 | Base price | 3.297,00 |   | Governance / Platform |
+| 2 | Maximum quantity of users | 1 |   Each connection is count as a user to **processor** license | Governance / Platform |
+| 3 | Price per additional user | 3.297,00 |    | Governance / Platform |
+| 4 | Expiration time | Permanent |   | Governance / Platform |
+| 5 | Average cost to integrate tools or plug-ins | Not applicable |  | Governance / Platform |
+| 6 | Additional information | Is possible choose a period to this license |   | Governance / Platform |
+
+### License 'processor'
+
+| ID | Context |  Answer | Observations | Point of View |
+|:---|:---------------|:-------|:--------|:------------------|:----------|
+| 1 | Base price | 164.839,00 |  | Governance / Platform |
+| 2 | Maximum quantity of users | negociable |  Each connection is count as a user to **processor** license | Governance / Platform |
+| 3 | Price per additional user | Not applicable |  | Governance / Platform |
+| 4 | Expiration time |   Permanent |  | Governance / Platform |
+| 5 | Average cost to integrate tools or plug-ins |Not applicable |  | Governance / Platform |
+| 6 | Additional information |  Is possible to choose a period to this license |  | Governance / Platform |
 
 ## Vendor Dependency
 
-### Questionnaire
+### Contract dependency
 
 | ID | Question | Answer | Observations | Point of View |
 |:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
 | 1 | Is it required a contract or formal negotiation in order to use the platform? | Yes | it is necessary the hiring of the Oracle’s services | Governance / Platform |
 | 2 | Is it required to purchase a plan or bundle in order to use the platform? | Yes | Oracle Apex is part of the Oracle Database package. On occur termination of the package adhesion, the projects maintained on Oracle Cloud. and the access to tools in local instances are freezed | Governance / Platform |
-| 3 | Is the platform restricts the complete access to the developed application? | Yes | The tool restrict the system development for only within the tool itself. The developed product code in the tool has an architecture highly dependent on the tool, which turns impossible to continue the development outside of it | Governance / Platform |
-| 4 | Is it required to use the platform in order to deploy the final developed application? | Yes | It isn't possible implant the system outside integration of the products contained in Oracle Database package | Governance / Platform |
+
+### Technology dependency
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 1 | Is the platform restricts the complete access to the developed application? | Yes | The tool restrict the system development for only within the tool itself. The developed product code in the tool has an architecture highly dependent on the tool, which turns impossible to continue the development outside of it | Governance / Platform |
+| 2 | Is it required to use the platform in order to deploy the final developed application? | Yes | It isn't possible implant the system outside integration of the products contained in Oracle Database package | Governance / Platform |
 
 ## Ability to Integrate with Other Tools
-
-### Questionnaire
 
 #### Connectivity with External Component/System
 
@@ -80,8 +100,6 @@
 
 ## Security
 
-### Questionnaire
-
 #### Access Behaviors
 
 | ID | Question | Answer | Observations | Point of View |
@@ -103,7 +121,7 @@
 
 | ID | Question | Answer | Observations | Point of View |
 |:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 8 | If the platform accepts file upload, is it check file type and size? | No |  | EUD / Platform |
+| 8 | If the platform accepts file upload, is it check file type and size? | Yes | Check only the size | EUD / Platform |
 | 9 | If the platform accepts file upload, is it check if the content match with file type? | Yes |  | EUD / Platform |
 
 #### Report Behaviors
@@ -125,11 +143,9 @@
 |:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
 | 13 | Is it possible to create hash using the platform's cryptography library? | Yes | MD5, SHA-1, SHA-2(256 bits, 384 bits, 512 bits), using script SQL | EUD / Platform |
 | 14 | Is it possible to encrypt/decrypt a message using the platform's cryptography library? | No |  | EUD / Platform |
-| 15 | What is the version of TLS the platform use? | 1.2 |  | EUD / Platform |
+| 15 | What is the version of SSL/TLS the platform use? | 1.2 | Use only the TLS protocol | EUD / Platform |
 
 ## Data Management
-
-### Questionnaire
 
 #### Data Management Process
 
@@ -169,13 +185,11 @@
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 3 | Which releases were chosen to be analyzed? | 4 and 5.1 | 2200 days |
 | 4 | What is the average time for a platform's new release? | 179,58 (SD = 117,86) | |
-| 5 | What is the average defects in each platform's release? | Not applicable |  Vendor don't share the bugs report for each release |
+| 5 | What is the average defects in each platform's release? | Not applicable | Vendor don't share the bugs report for each release, only the cumulative know issues |
 | 6 | What is the average of fixes in each platform's release? | 73,46 (SD = 56,89) | |
 | 7 | What is the total number of fixes in each platform's release? | 955 |  |
 
 ## Collaboration
-
-### Questionnaire
 
 #### Shareability
 
@@ -234,8 +248,6 @@
 | 6 | Complex tasks: 8-12 seconds | No |  |
 
 ## Hardware & Software Configuration
-
-### Questionnaire
 
 | ID | Context | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
