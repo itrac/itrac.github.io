@@ -1,20 +1,33 @@
 # EUD Technology Evaluation
 
-## About
+## Criterias
 
-## Evaluation Dimensions
-* [Application Domain](/eud_technology_evaluation/application_domain)
-* [Maintainability](/eud_technology_evaluation/maintainability)
-* [Cost](/eud_technology_evaluation/cost)
-* [Vendor Dependency](/eud_technology_evaluation/vendor_dependency)
-* [Ability to Integrate With Other Tools](/eud_technology_evaluation/ability_to_integrate_with_other_tools)
-* [Security](/eud_technology_evaluation/security)
-* [Data Management](/eud_technology_evaluation/data_management)
-* [Reliability](/eud_technology_evaluation/reliability)
+### Functional Characteristics
+
+* [Functionality](/eud_technology_evaluation/functionality)
 * [Collaboration](/eud_technology_evaluation/collaboration)
-* [Hardware & Software Configuration](/eud_technology_evaluation/hardware_software_configuration)
-* [Performance](/eud_technology_evaluation/performance)
+* [Data Management](/eud_technology_evaluation/data_management)
+
+### Cost and Benefit Characteristic
+
+* [Cost](/eud_technology_evaluation/cost)
+
+### Vendor Characteristic
+
+* [Vendor](/eud_technology_evaluation/vendor)
+
+### Software Quality Characteristics
+
+* [Compatibility](/eud_technology_evaluation/compatibility)
+* [Maintainability](/eud_technology_evaluation/maintainability)
 * [Usability](/eud_technology_evaluation/usability)
+* [Reliability](/eud_technology_evaluation/reliability)
+* [Performance Efficiency](/eud_technology_evaluation/performance_efficiency)
+* [Security](/eud_technology_evaluation/security)
+
+### Hardware & Software Configuration
+
+* [Hardware & Software Configuration](/eud_technology_evaluation/hardware_software_configuration)
 
 ## Evaluation Cases
 * [Oracle Apex](/eud_technology_evaluation/oracle_apex_evaluation)

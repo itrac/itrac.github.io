@@ -289,4 +289,9 @@
 | 15.14 | Validation of fields works properly (e.g. postal codes) | Yes / No / Not applicable |  | EUD / Platform |
 | 15.15 | Lists are sorted according to target language and region | Yes / No / Not applicable |  | EUD / Platform |
 
+## References
+
+* ISO/IEC 25023 (2011). Systems and software engineering – Systems and software Quality Requirements and Evaluation
+(SQuaRE) – Measurement of system and software product quality. Tech. rep. ISO25023, 1–21.
+
 _[(Back to EuD Technology Evaluation Page)](../eud_technology_evaluation)_

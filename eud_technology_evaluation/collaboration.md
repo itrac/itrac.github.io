@@ -42,4 +42,10 @@
 
 ## References
 
+* Andriessen, J. (2012). Working with Groupware: Understanding and Evaluating Collaboration Technology. Computer
+Supported Cooperative Work. Springer London.
+* Baker, K., Greenberg, S., and Gutwin, C. (2002). “Empirical development of a heuristic evaluation methodology for
+shared workspace groupware.” Proceedings of the 2002 ACM conference on Computer supported cooperative work
+- CSCW ’02. ACM Press, New York, New York, USA, 96.
+
 _[(Back to EuD Technology Evaluation Page)](../eud_technology_evaluation)_

@@ -16,4 +16,8 @@
 
 ## References
 
+* Greenstein, S. M. (1997). “Lock-in and the Costs of Switching Mainframe Computer Vendors: What Do Buyers See?”
+Industrial and Corporate Change 6.2, 247.
+* Lichtenstein, Y. (2004). “Puzzles in Software Development Contracting.” Communications of ACM 47.2, 61–65.
+
 _[(Back to EuD Technology Evaluation Page)](../eud_technology_evaluation)_

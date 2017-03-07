@@ -19,4 +19,7 @@
 
 ## References
 
+* ISO/IEC 25023 (2011). Systems and software engineering – Systems and software Quality Requirements and Evaluation
+(SQuaRE) – Measurement of system and software product quality. Tech. rep. ISO25023, 1–21.
+
 _[(Back to EuD Technology Evaluation Page)](../eud_technology_evaluation)_

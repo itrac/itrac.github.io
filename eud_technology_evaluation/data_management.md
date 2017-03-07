@@ -27,4 +27,9 @@
 
 ## References
 
+* Sadalage, P. and Fowler, M. (2016). Evolutionary Database Design. URL: https://martinfowler.com/articles/evodb.
+html (visited on 02/20/2017).
+* Mika, S. (2006). Five Steps to Database Integration. URL: http://www.government-fleet.com/article/story/2006/03/
+five-steps-to-database-integration.aspx (visited on 12/12/2016).
+
 _[(Back to EuD Technology Evaluation Page)](../eud_technology_evaluation)_
