@@ -1,6 +1,10 @@
 # OutSystems Evaluation
 
-## Application Domain
+# Functional Characteristics
+
+## Functionality
+
+### Application Domain
 
 1. Which features does the platform have?
 
@@ -8,215 +12,11 @@
 
 1. Which features are described on platform's official media but were not found during the evaluation?
 
-	**A**: Not applicable.
+	**A**: Not applicable
 
 1. According to the platform's features, what is the category of the platform?
 
 	**A**: General-purpose
-
-## Maintainability
-
-### Modifiability
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Can the maintainer easily modify the application in order to solve an issue? | Yes |  |
-| 2 | If found the module, how many changes on application were necessary in order to use it? | 3 | Link the Forge module in the application, create a new field, link the field with the Forge module |
-| 3 | If it is possible to reuse an exported module, can the user change it? | Yes | |
-
-### Reusability
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 4 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | ~120 seconds | Module: Google Places at Forge Library |
-| 5 | How many modules/components can be exported from the scenario application? | Not applicable | The scenario does not have modules that can be exported |
-| 6 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | at least 2 | Link the module with the application, link the module with the field/context |
-
-## Cost
-
-* 2500 Function Points Plan
-
-| ID | Context | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Base price | $ 664,626.40 |  |
-| 2 | Maximum quantity of users | Unlimited  |  |
-| 3 | Price per additional user | Not applicable |  |
-| 4 | Expiration time | Not applicable |  |
-| 5 | Average cost to integrate tools or plug-ins | Not applicable |  |
-| 6 | Additional information | Plan includes a 24 months technical support | The value of the technical support is $ 151,908.10 |
-
-* Unlimited Plan
-
-| ID | Context | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Base price | $ 2,072,601.74 |  |
-| 2 | Maximum quantity of users | Unlimited  |  |
-| 3 | Price per additional user | Not applicable |  |
-| 4 | Expiration time | Not applicable |  |
-| 5 | Average cost to integrate tools or plug-ins | Not applicable |  |
-| 6 | Additional information | Plan includes a 24 months technical support | The value of the technical support is $ 473,737.53 |
-
-## Vendor Dependency
-
-### Contract dependency
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Is it required a contract or formal negotiation in order to use the platform? | Yes | It is required a contract in order to use all the OutSystems features |
-| 2 | Is it required to purchase a plan or bundle in order to use the platform? | Yes | The contract is based in a plan with function points limit. There is no concrete information about sanctions in case of contract termination or when exceeds the function points limit. |
-
-* **Result**: 100%
-
-### Technology dependency
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 3 | Is the platform restricts the complete access to the developed application? | No | OutSystems API features, like plugins or services created by the company or the community, are accessible only inside the platform |
-| 4 | Is it required to use the platform in order to deploy the final developed application? | No |  |
-
-* **Result**: 0%
-
-## Ability to Integrate with Other Tools
-
-### Connectivity with External Component/System
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Is integration possible? | Yes |  |
-| 2 | Which tools can be integrated? | Tools written in JavaScript/CSS, Cordova plugins |  |
-| 3 | What are the integration methods supported by the platform? | Remote procedure call, Messaging passing, Software service |  |
-
-
-### Technical Knowledge Requirement
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 4 | How much technical experience is necessary in order to perform integrations? | JavaScript: Average, CSS: if SASS: Advanced; otherwise: Low, Cordova: Advanced |  |
-
-### Data Exchangeability
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 5 | If it is possible to use external database, does the platform guides the integration? | Yes | The platform performs basic schema matching |
-
-
-### Reusability
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 6 | Does the developer need to integrate a certain tool every time he/she wants to use it? | Yes |  |
-
-## Security
-
-### Access Behaviors
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Is it required authentication in order to use the platform? | Yes |  |
-| 2 | Is it show a password quality in registry? | No |  |
-| 3 | Is it impossible to save session information? | Yes |  |
-| 4 | Is it not possible to keep multiple and simultaneous sessions? | Yes |  |
-| 5 | The session has expiration timer? | No |  |
-
-* **Result**: 60%
-
-### Update Behaviors
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 6 | The platform notify when it has updates? | Yes |  |
-| 7 | Is it possible to configure automatic updates? | No |  |
-
-* **Result**: 50%
-
-### File Upload Security
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 8 | If the platform accepts file upload, is it check file type and size? | Yes |  |
-| 9 | If the platform accepts file upload, is it check if the content match with file type? | Yes |  |
-
-* **Result**: 100%
-
-### Report Behaviors
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 10 | Is it possible to select which information will be sent in a report message? | Yes |  |
-
-* **Result**: 100%
-
-### Developed Application Security
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 11 | Is it possible to analyze vulnerabilities of the developed application inside the platform? | Yes |  |
-| 12 | Exists documentation, messages, or notifications that explains about developed application's security? | Yes |  |
-
-* **Result**: 100%
-
-### Security Algorithms
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 13 | Is it possible to create hash using the platform's cryptography library? | Yes | MD5, SHA-2 (512 bits) |
-| 14 | Is it possible to encrypt/decrypt a message using the platform's cryptography library? | Yes | CryptoAPI (AES - 128/256 bits, RSA) |
-| 15 | What is the version of SSL/TLS the platform use? | SSL: 9.1.301.0 or superior, TLS: 1.2 or inferior |  |
-
-* **Result**: 100%
-
-## Data Management
-
-### Data Management Process
-
-1. How does the data management is performed?
-
-	**A**: Data are defined in processes. Each interaction with some database is established as one element of a process. The interaction with the user's interface and external systems are implemented as a connection with an data element of a process.
-
-1. How do data is accessed in the platform?
-
-	**A**: It is possible to view the data by accessing the table files. For an access by an interface process element, it is necessary to define which data will be used by the application. For an access by a logic element, it is necessary to define which algorithm will be used on the data. It is possible to use SQL to access the application's database.
-
-### Data Input and Output
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 3 | If it is possible to import data from files, which types of files are supported? | CSV, TXT, XML, XLS, JSON |  |
-| 4 | If it is possible to export data to files, which types of files are supported? | CSV |  |
-| 5 | Does the platform enable data transaction with external systems? If so, which protocols are supported to send and/or retrieve data? | Yes; Send Data: REST; Retrieve Data: SQL, SOAP, REST |  |
-
-* **Result**: 100%
-
-### Required Technical Knowledge
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 6 | Is it required knowledge in relational programming languages? | No |  |
-| 7 | Is it required knowledge in data modeling? | No |  |
-| 8 | Is it required other category of technical knowledge? | Yes | It is necessary an average knowledge in process modelling in order to perform the interactions between the data and other elements |
-
-* **Result**: 33%
-
-## Reliability
-
-### Availability
-
-| ID | Context | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Platform's failure log count | Not applicable |  |
-| 2 | Reliability by log | Not applicable | Reliability = (1 - errors count / total count) * 100 |
-
-* **Result**: Not applicable
-
-### Vendor Support
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 3 | Which releases were chosen to be analyzed? | 5, 6, 7, 8, 9 | 2518 days |
-| 4 | What is the average time for a platform's new release? | 20.30 (SD: 13.04) |  |
-| 5 | What is the average defects in each platform's release? | Not applicable | The required information was not found |
-| 6 | What is the average of fixes in each platform's release? | 8.76 (DP: 9.67) |  |
-| 7 | What is the total number of fixes in each platform's release? | 1096 | For all the releases analyzed |
 
 ## Collaboration
 
@@ -268,55 +68,155 @@
 
 * **Result**: 50%
 
-## Performance
+## Data Management
 
-### Response Time
+### Data Management Process
+
+1. How does the data management is performed?
+
+	**A**: Data are defined in processes. Each interaction with some database is established as one element of a process. The interaction with the user's interface and external systems are implemented as a connection with an data element of a process.
+
+1. How do data is accessed in the platform?
+
+	**A**: It is possible to view the data by accessing the table files. For an access by an interface process element, it is necessary to define which data will be used by the application. For an access by a logic element, it is necessary to define which algorithm will be used on the data. It is possible to use SQL to access the application's database.
+
+### Data Input and Output
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Are response times appropriate to the task? | Yes |  |
-| 2 | Typing, cursor motion, mouse selection: 50-1 50 milliseconds | Yes |  |
+| 3 | If it is possible to import data from files, which types of files are supported? | CSV, TXT, XML, XLS, JSON |  |
+| 4 | If it is possible to export data to files, which types of files are supported? | CSV |  |
+| 5 | Does the platform enable data transaction with external systems? If so, which protocols are supported to send and/or retrieve data? | Yes; Send Data: REST; Retrieve Data: SQL, SOAP, REST |  |
 
 * **Result**: 100%
 
-### Turnaround Time
+### Required Technical Knowledge
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
-| 3 | If there are observable delays (greater than fifteen seconds) in the system’s response time, is the user kept informed of the system's progress? | Yes |  |
-| 4 | Simple, frequent tasks: less than 1 second | Yes |  |
-| 5 | Common tasks: 2-4 seconds | Yes |  |
-| 6 | Complex tasks: 8-12 seconds | Yes |  |
+| 6 | Is it required knowledge in relational programming languages? | No |  |
+| 7 | Is it required knowledge in data modeling? | No |  |
+| 8 | Is it required other category of technical knowledge? | Yes | It is necessary an average knowledge in process modeling in order to perform the interactions between the data and other elements |
+
+* **Result**: 33%
+
+# Cost and Benefit Characteristic
+
+## Cost
+
+### 2500 Function Points Plan
+
+#### License Cost
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Base price | $ 664,626.40 |  |
+| 2 | Maximum quantity of users | Unlimited  |  |
+| 3 | Price per additional user | Not applicable |  |
+| 4 | Expiration time | Not applicable |  |
+| 5 | Additional information | Plan includes a 24 months technical support | The value of the technical support is $ 151,908.10 |
+
+#### Maintenance Cost
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 6 | Average cost to integrate tools or plug-ins | Not applicable |  |
+
+### Unlimited Plan
+
+#### License Cost
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Base price | $ 2,072,601.74 |  |
+| 2 | Maximum quantity of users | Unlimited  |  |
+| 3 | Price per additional user | Not applicable |  |
+| 4 | Expiration time | Not applicable |  |
+| 5 | Additional information | Plan includes a 24 months technical support | The value of the technical support is $ 473,737.53 |
+
+### Maintenance Cost
+
+| 6 | Average cost to integrate tools or plug-ins | Not applicable |  |
+
+# Vendor Characteristic
+
+## Vendor
+
+### Contract Dependency
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Is it required a contract or formal negotiation in order to use the platform? | Yes | It is required a contract in order to use all the OutSystems features |
+| 2 | Is it required to purchase a plan or bundle in order to use the platform? | Yes | The contract is based in a plan with function points limit. There is no concrete information about sanctions in case of contract termination or when exceeds the function points limit. |
 
 * **Result**: 100%
 
-## Hardware & Software Configuration
+### Technology Dependency
 
-* Server
-
-| ID | Context | Answer | Observations |
+| ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | RAM | 8 GB | |
-| 2 | Processor | Intel Dual Core or equivalent | |
-| 3 | Disk space | 80 GB | |
-| 4 | Software dependencies | WebLogic, JBoss | |
-| 5 | Protocols | HTTPS (with valid SSL) | |
-| 6 | Operating system | Red Hat 5.3 or superior, CentOS 5 or 6, Oracle Linux 6 | |
-| 7 | Database | Oracle 11gR2, Oracle 12c, MySQL 5.6.5+ | |
-| 8 | Alternative technologies | Not applicable | |
+| 3 | Is the platform restricts the complete access to the developed application? | No | OutSystems API features, like plugins or services created by the company or the community, are accessible only inside the platform |
+| 4 | Is it required to use the platform in order to deploy the final developed application? | No |  |
 
-* Client
+* **Result**: 0%
 
-| ID | Context | Answer | Observations |
+# Software Quality Characteristics
+
+## Compatibility
+
+### Technical Knowledge Requirement
+
+| ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | RAM | 1 GB | |
-| 2 | Processor | Intel Dual Core or equivalent | |
-| 3 | Disk space | 500 MB | |
-| 4 | Software dependencies | Eclipse SDK 3 or superior, Java SDK 1.8, Apache Ant 1.9 or superior, Microsoft .NET 4.6.1 | |
-| 5 | Protocols | Not applicable | |
-| 6 | Operating system | Windows Vista or superior, Windows Server 2008 or 2012 | |
-| 7 | Database | Not applicable | |
-| 8 | Alternative technologies | Not applicable | |
+| 1 | How much technical experience is necessary in order to perform integrations? | JavaScript: Average, CSS: if SASS: Advanced; otherwise: Low, Cordova: Advanced |  |
+
+* **Result**: Advanced
+
+### Data Exchangeability
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 2 | If it is possible to use external database, does the platform guides the integration? | Yes | The platform performs basic schema matching |
+
+* **Result**: 100%
+
+### Connectivity with External Component/System
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 3 | Is integration possible? | Yes |  |
+| 4 | Which tools can be integrated? | Tools written in JavaScript/CSS, Cordova plugins |  |
+| 5 | What are the integration methods supported by the platform? | Remote procedure call, Messaging passing, Software service |  |
+
+* **Result**: Possible
+
+### Reusability
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 6 | Does the developer need to integrate a certain tool every time he/she wants to use it? | Yes |  |
+
+* **Result**: 100%
+
+## Maintainability
+
+### Modifiability
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Can the maintainer easily modify the application in order to solve an issue? | Yes |  |
+| 2 | If found the module, how many changes on application were necessary in order to use it? | 3 | Link the Forge module in the application, create a new field, link the field with the Forge module |
+| 3 | If it is possible to reuse an exported module, can the user change it? | Yes | |
+
+* **Result**: 100%
+
+### Reusability
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 4 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | ~120 seconds | Module: Google Places at Forge Library |
+| 5 | How many modules/components can be exported from the scenario application? | Not applicable | The scenario does not have modules that can be exported |
+| 6 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | at least 2 | Link the module with the application, link the module with the field/context |
 
 ## Usability
 
@@ -636,5 +536,137 @@
 | 15.15 | Lists are sorted according to target language and region | Not applicable |  |
 
 * **Result**: 27%
+
+## Reliability
+
+### Availability
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Platform's failure log count | Not applicable |  |
+| 2 | Reliability by log | Not applicable | Reliability = (1 - errors count / total count) * 100 |
+
+* **Result**: Not applicable
+
+### Vendor Support
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 3 | Which releases were chosen to be analyzed? | 5, 6, 7, 8, 9 | 2518 days |
+| 4 | What is the average time for a platform's new release? | 20.30 (SD: 13.04) |  |
+| 5 | What is the average defects in each platform's release? | Not applicable | The required information was not found |
+| 6 | What is the average of fixes in each platform's release? | 8.76 (DP: 9.67) |  |
+| 7 | What is the total number of fixes in each platform's release? | 1096 | For all the releases analyzed |
+
+## Performance Efficiency
+
+### Response Time
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Are response times appropriate to the task? | Yes |  |
+| 2 | Typing, cursor motion, mouse selection: 50-1 50 milliseconds | Yes |  |
+
+* **Result**: 100%
+
+### Turnaround Time
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 3 | If there are observable delays (greater than fifteen seconds) in the system’s response time, is the user kept informed of the system's progress? | Yes |  |
+| 4 | Simple, frequent tasks: less than 1 second | Yes |  |
+| 5 | Common tasks: 2-4 seconds | Yes |  |
+| 6 | Complex tasks: 8-12 seconds | Yes |  |
+
+* **Result**: 100%
+
+## Security
+
+### Access Behaviors
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Is it required authentication in order to use the platform? | Yes |  |
+| 2 | Is it show a password quality in registry? | No |  |
+| 3 | Is it impossible to save session information? | Yes |  |
+| 4 | Is it not possible to keep multiple and simultaneous sessions? | Yes |  |
+| 5 | The session has expiration timer? | No |  |
+
+* **Result**: 60%
+
+### Developed Application Security
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 6 | Is it possible to analyze vulnerabilities of the developed application inside the platform? | Yes |  |
+| 7 | Exists documentation, messages, or notifications that explains about developed application's security? | Yes |  |
+
+* **Result**: 100%
+
+### Update Behaviors
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 8 | The platform notify when it has updates? | Yes |  |
+| 9 | Is it possible to configure automatic updates? | No |  |
+
+* **Result**: 50%
+
+### File Upload Security
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 10 | If the platform accepts file upload, is it check file type and size? | Yes |  |
+| 11 | If the platform accepts file upload, is it check if the content match with file type? | Yes |  |
+
+* **Result**: 100%
+
+### Report Behaviors
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 12 | Is it possible to select which information will be sent in a report message? | Yes |  |
+
+* **Result**: 100%
+
+### Security Algorithms
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 13 | Is it possible to create hash using the platform's cryptography library? | Yes | MD5, SHA-2 (512 bits) |
+| 14 | Is it possible to encrypt/decrypt a message using the platform's cryptography library? | Yes | CryptoAPI (AES - 128/256 bits, RSA) |
+| 15 | What is the version of SSL/TLS the platform use? | SSL: 9.1.301.0 or superior, TLS: 1.2 or inferior |  |
+
+* **Result**: 100%
+
+# Hardware & Software Configuration
+
+## Hardware & Software Configuration
+
+### Server
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | RAM | 8 GB | |
+| 2 | Processor | Intel Dual Core or equivalent | |
+| 3 | Disk space | 80 GB | |
+| 4 | Software dependencies | WebLogic, JBoss | |
+| 5 | Protocols | HTTPS (with valid SSL) | |
+| 6 | Operating system | Red Hat 5.3 or superior, CentOS 5 or 6, Oracle Linux 6 | |
+| 7 | Database | Oracle 11gR2, Oracle 12c, MySQL 5.6.5+ | |
+| 8 | Alternative technologies | Not applicable | |
+
+### Client
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | RAM | 1 GB | |
+| 2 | Processor | Intel Dual Core or equivalent | |
+| 3 | Disk space | 500 MB | |
+| 4 | Software dependencies | Eclipse SDK 3 or superior, Java SDK 1.8, Apache Ant 1.9 or superior, Microsoft .NET 4.6.1 | |
+| 5 | Protocols | Not applicable | |
+| 6 | Operating system | Windows Vista or superior, Windows Server 2008 or 2012 | |
+| 7 | Database | Not applicable | |
+| 8 | Alternative technologies | Not applicable | |
 
 _[(Back to EuD Technology Evaluation Page)](../eud_technology_evaluation)_

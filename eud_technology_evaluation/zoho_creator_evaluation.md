@@ -8,15 +8,15 @@
 
 1. Which features does the platform have?
 
-**A:**
+	**A**:
 
 1. Which features are described on platform's official media but were not found during the evaluation?
 
-**A:**
+	**A**:
 
 1. According to the platform's features, what is the category of the platform?
 
-**A:**
+	**A**:
 
 ## Collaboration
 
@@ -26,11 +26,15 @@
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 1 | Is it possible to share components with other collaborators? | Yes / No | If the answer is yes, explain how |
 
+* **Result**: xx%
+
 ### Coordination of Actions
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 2 | Each collaborator can coordinate yourself? | Yes / No | If the answer is yes, explain how |
+
+* **Result**: xx%
 
 ### Consequential Communication
 
@@ -42,6 +46,8 @@
 | 6 | Is there support for evaluation of individual history of each collaborator? | Yes / No / Not applicable |  |
 | 7 | Is there support to real time visualization? | Yes / No |  |
 
+* **Result**: xx%
+
 ### Finding Collaborators and Establishing Contact
 
 | ID | Question | Answer | Observations |
@@ -51,6 +57,8 @@
 | 10 | Is it possible to determine a coordinator of real time collaboration? | Yes / No / Not applicable |  |
 | 11 | Is there support to feedback and evaluations of collaborations? | Yes / No | If the answer is yes, explain how |
 
+* **Result**: xx%
+
 ### Concurrent Protection
 
 | ID | Question | Answer | Observations |
@@ -58,14 +66,19 @@
 | 12 | Are collaborators advised when other collaborators change an artifact? | Yes / No |  |
 | 13 | Is it possible to recover from the negative effects of conflicts generated? | Yes / No |  |
 
+* **Result**: xx%
+
 ## Data Management
 
 ### Data Management Process
 
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | How does the data management is performed? | Description of how the data management is performed |  |
-| 2 | How do data is accessed in the platform? | Description of how the data is accessed  |  |
+1. How does the data management is performed?
+
+	**A**:
+
+1. How do data is accessed in the platform?
+
+	**A**:
 
 ### Data Input and Output
 
@@ -75,6 +88,8 @@
 | 4 | If it is possible to export data to files, which types of files are supported? | List of supported types / Not applicable |  |
 | 5 | Does the platform enable data transaction with external systems? If so, which protocols are supported to send and/or retrieve data? | Yes / No | If the answer is yes, inform the supported protocols to send data and/or the supported protocols to retrieve data |
 
+* **Result**: xx%
+
 ### Required Technical Knowledge
 
 | ID | Question | Answer | Observations |
@@ -82,6 +97,8 @@
 | 6 | Is it required knowledge in relational programming languages? | Yes / No | If the answer is yes, explain when and which level of knowledge is necessary |
 | 7 | Is it required knowledge in data modeling? | Yes / No | If the answer is yes, explain when and which level of knowledge is necessary  |
 | 8 | Is it required other category of technical knowledge? | Yes / No | If the answer is yes, explain which category is required, when is required, and which level of knowledge is necessary  |
+
+* **Result**: xx%
 
 # Cost and Benefit Characteristic
 
@@ -111,19 +128,23 @@ For each plan defined by the vendor, answer:
 
 ## Vendor
 
-### Contract dependency
+### Contract Dependency
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 1 | Is it required a contract or formal negotiation in order to use the platform? | Yes | it is necessary the hiring of the Oracle’s services |
 | 2 | Is it required to purchase a plan or bundle in order to use the platform? | Yes / No | If yes, describe the plan/bundle |
 
-### Technology dependency
+* **Result**: xx%
+
+### Technology Dependency
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 1 | Is the platform restricts the complete access to the developed application? | Yes / No | If yes, inform the restrictions found |
 | 2 | Is it required to use the platform in order to deploy the final developed application? | Yes / No |  |
+
+* **Result**: xx%
 
 # Software Quality Characteristics
 
@@ -135,11 +156,15 @@ For each plan defined by the vendor, answer:
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 1 | How much technical experience is necessary in order to perform integrations? | Low / Average / Advanced / Not Applicable | Answer for each type of technical experience necessary |
 
+* **Result**: Low / Average / Advanced
+
 ### Data Exchangeability
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 2 | If it is possible to use external database, does the platform guides the integration? | Yes / No / Not applicable  | If the answer is yes, inform if the platform performs schema matching |
+
+* **Result**: xx%
 
 ### Connectivity with External Component/System
 
@@ -149,11 +174,15 @@ For each plan defined by the vendor, answer:
 | 4 | Which tools can be integrated? | List of tools that can be integrated / Not applicable |  |
 | 5 | What are the integration methods supported by the platform? | List of integrations methods supported / Not applicable |  |
 
+* **Result**: Possible / Not Possible
+
 ### Reusability
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 6 | Does the developer need to integrate a certain tool every time he/she wants to use it? | Yes / No / Not applicable |  |
+
+* **Result**: xx%
 
 ## Maintainability
 
@@ -164,6 +193,8 @@ For each plan defined by the vendor, answer:
 | 1 | Can the maintainer easily modify the application in order to solve an issue? | Yes / No |  |
 | 2 | If found the module, how many changes on application were necessary in order to use it? | Integer value / Not applicable |  |
 | 3 | If it is possible to reuse an exported module, can the user change it? | Yes /No / Not applicable |  |
+
+* **Result**: xx%
 
 ### Reusability
 
@@ -200,6 +231,8 @@ For each plan defined by the vendor, answer:
 | 1.19 | Does the system provide visibility: that is, by looking, can the user tell the state of the system and the alternatives for action? | Yes / No / Not applicable |  |
 | 1.20 | If users must navigate between multiple screens, does the system use context labels, menu maps, and place markers as navigational aids? | Yes / No / Not applicable |  |
 
+* **Result**: xx%
+
 ### 2. Match Between System and the Real World
 
 | ID | Question | Answer | Observations |
@@ -216,6 +249,8 @@ For each plan defined by the vendor, answer:
 | 2.10 | Does the system automatically enter leading or trailing spaces to align decimal points? | Yes / No / Not applicable |  |
 | 2.11 | Does the system automatically enter commas in numeric values greater than 9999? | Yes / No / Not applicable |  |
 | 2.12 | Do GUI menus offer activation: that is, make obvious how to say "now do it"? | Yes / No / Not applicable |  |
+
+* **Result**: xx%
 
 ### 3. User Control and Freedom
 
@@ -240,6 +275,8 @@ For each plan defined by the vendor, answer:
 | 3.17 | Do actions that can cause serious consequences have an undo feature? | Yes / No / Not applicable |  |
 | 3.18 | Can users easily reverse their actions? | Yes / No / Not applicable |  |
 | 3.19 | If the system allows users to reverse their actions, is there a retracing mechanism to allow for multiple undo? | Yes / No / Not applicable |  |
+
+* **Result**: xx%
 
 ### 4. Consistency and Standards
 
@@ -272,6 +309,8 @@ For each plan defined by the vendor, answer:
 | 4.25 | If the system has multipage data entry screens, do all pages have the same title? | Yes / No / Not applicable |  |
 | 4.26 | If the system has multipage data entry screens, does each page have a sequential page number? | Yes / No / Not applicable |  |
 
+* **Result**: xx%
+
 ### 5. Help Users Recognize, Diagnose, and Recover From Errors
 
 | ID | Question | Answer | Observations |
@@ -293,6 +332,8 @@ For each plan defined by the vendor, answer:
 | 5.15 | Do error messages indicate what action the user needs to take to correct the error? | Yes / No / Not applicable |  |
 | 5.16 | If the system supports both novice and expert users, are multiple levels of error-message detail available? | Yes / No / Not applicable |  |
 
+* **Result**: xx%
+
 ### 6. Error Prevention
 
 | ID | Question | Answer | Observations |
@@ -305,6 +346,8 @@ For each plan defined by the vendor, answer:
 | 6.6 | Does the system warn users if they are about to make a potentially serious error? | Yes / No / Not applicable |  |
 | 6.7 | Do data entry screens and dialog boxes indicate the number of character spaces available in a field? | Yes / No / Not applicable |  |
 | 6.8 | Do fields in data entry screens and dialog boxes contain default values when appropriate? | Yes / No / Not applicable |  |
+
+* **Result**: xx%
 
 ### 7. Recognition Rather Than Recall
 
@@ -336,6 +379,8 @@ For each plan defined by the vendor, answer:
 | 7.24 | Do GUI menus offer affordance: that is, make obvious where selection is possible? | Yes / No / Not applicable |  |
 | 7.25 | Do data entry screens and dialog boxes indicate when fields are optional? | Yes / No / Not applicable |  |
 
+* **Result**: xx%
+
 ### 8. Flexibility and Minimalist Design
 
 | ID | Question | Answer | Observations |
@@ -349,6 +394,8 @@ For each plan defined by the vendor, answer:
 | 8.7 | On menus, do users have the option of either clicking directly on a menu item or using a keyboard shortcut? | Yes / No / Not applicable |  |
 | 8.8 | In dialog boxes, do users have the option of either clicking directly on a dialog box option or using a keyboard shortcut? | Yes / No / Not applicable |  |
 | 8.9 | Can expert users bypass nested dialog boxes with either type-ahead, user-defined macros, or keyboard shortcuts? | Yes / No / Not applicable |  |
+
+* **Result**: xx%
 
 ### 9. Aesthetic and Minimalist Design
 
@@ -364,6 +411,8 @@ For each plan defined by the vendor, answer:
 | 9.8 | Are prompts expressed in the affirmative, and do they use the active voice? | Yes / No / Not applicable |  |
 | 9.9 | Is each lower-level menu choice associated with only one higher level menu? | Yes / No / Not applicable |  |
 | 9.10 | Are there pop-up or pull-down menus within data entry fields that have many, but well-defined, entry options? | Yes / No / Not applicable |  |
+
+* **Result**: xx%
 
 ### 10. Help and Documentation
 
@@ -388,6 +437,8 @@ For each plan defined by the vendor, answer:
 | 10.17 | Is it easy to access and return from the help system? | Yes / No / Not applicable |  |
 | 10.18 | Can users resume work where they left off after accessing help? | Yes / No / Not applicable |  |
 
+* **Result**: xx%
+
 ### 11. Skills
 
 | ID | Question | Answer | Observations |
@@ -404,6 +455,8 @@ For each plan defined by the vendor, answer:
 | 11.10 | Has auto-tabbing been avoided except when fields have fixed lengths or users are experienced? | Yes / No / Not applicable |  |
 | 11.11 | Are function keys or keyboard shortcuts reserved for generic, high-frequency, important functions? | Yes / No / Not applicable |  |
 
+* **Result**: xx%
+
 ### 12. Pleasurable and Respectful Interaction with the User
 
 | ID | Question | Answer | Observations |
@@ -415,6 +468,8 @@ For each plan defined by the vendor, answer:
 | 12.5 | Are typing requirements minimal for question and answer interfaces? | Yes / No / Not applicable |  |
 | 12.6 | Does the system complete unambiguous partial input on a data entry field? | Yes / No / Not applicable |  |
 
+* **Result**: xx%
+
 ### 13. Privacy
 
 | ID | Question | Answer | Observations |
@@ -424,6 +479,8 @@ For each plan defined by the vendor, answer:
 | 13.3 | Inaccessible areas show nonexistent error message when unauthorized entry do it. | Yes / No / Not applicable |  |
 | 13.4 | Are protected areas invisible to other users? | Yes / No / Not applicable |  |
 | 13.5 | Is it possible to select what will be visible to other users? | Yes / No / Not applicable |  |
+
+* **Result**: xx%
 
 ### 14. Accessibility
 
@@ -441,6 +498,8 @@ For each plan defined by the vendor, answer:
 | 14.10 | Navigational mechanisms that are repeated throughout content occur in the same relative order each time they are repeated, unless a change is initiated by the user | Yes / No / Not applicable |  |
 | 14.11 | Components that have the same functionality within a set of content are identified consistently | Yes / No / Not applicable |  |
 | 14.12 | If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content. | Yes / No / Not applicable |  |
+
+* **Result**: xx%
 
 ### 15. Localization
 
@@ -462,6 +521,8 @@ For each plan defined by the vendor, answer:
 | 15.14 | Validation of fields works properly (e.g. postal codes) | Yes / No / Not applicable |  |
 | 15.15 | Lists are sorted according to target language and region | Yes / No / Not applicable |  |
 
+* **Result**: xx%
+
 ## Reliability
 
 ### Availability
@@ -470,6 +531,8 @@ For each plan defined by the vendor, answer:
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 1 | Platform's failure log count | Integer value / Not applicable |  |
 | 2 | Reliability by log | Percentage value / Not applicable | Reliability = (1 - errors count / total count) * 100 |
+
+* **Result**: xx%
 
 ### Vendor Support
 
@@ -490,6 +553,8 @@ For each plan defined by the vendor, answer:
 | 1 | Are response times appropriate to the task? | Yes / No / Not applicable  |  |
 | 2 | Typing, cursor motion, mouse selection: 50-1 50 milliseconds | Yes / No / Not applicable |  |
 
+* **Result**: xx%
+
 ### Turnaround Time
 
 | ID | Question | Answer | Observations |
@@ -498,6 +563,8 @@ For each plan defined by the vendor, answer:
 | 4 | Simple, frequent tasks: less than 1 second | Yes / No / Not applicable |  |
 | 5 | Common tasks: 2-4 seconds | Yes / No / Not applicable |  |
 | 6 | Complex tasks: 8-12 seconds | Yes / No / Not applicable |  |
+
+* **Result**: xx%
 
 ## Security
 
@@ -511,12 +578,16 @@ For each plan defined by the vendor, answer:
 | 4 | Is it possible to keep multiple and simultaneous sessions? | Yes / No / Not applicable |  |
 | 5 | The session has expiration timer? | Yes / No / Not applicable |  |
 
+* **Result**: xx%
+
 ### Developed Application Security
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 6 | Is it possible to analyze vulnerabilities of the developed application inside the platform? | Yes / No |  |
 | 7 | Exists documentation, messages, or notifications that explains about developed application's security? | Yes / No |  |
+
+* **Result**: xx%
 
 ### Update Behaviors
 
@@ -525,6 +596,8 @@ For each plan defined by the vendor, answer:
 | 8 | The platform notify when it has updates? | Yes / No |  |
 | 9 | Is it possible to configure automatic updates? | Yes / No / Not applicable |  |
 
+* **Result**: xx%
+
 ### File Upload Security
 
 | ID | Question | Answer | Observations |
@@ -532,11 +605,15 @@ For each plan defined by the vendor, answer:
 | 10 | If the platform accepts file upload, is it check file type and size? | Yes / No / Not Applicable |  |
 | 11 | If the platform accepts file upload, is it check if the content match with file type? | Yes / No / Not Applicable |  |
 
+* **Result**: xx%
+
 ### Report Behaviors
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 12 | Is it possible to select which information will be sent in a report message? | Yes / No / Not applicable |  |
+
+* **Result**: xx%
 
 ### Security Algorithms
 
@@ -545,6 +622,8 @@ For each plan defined by the vendor, answer:
 | 13 | Is it possible to create hash using the platform's cryptography library? | Yes / No |  |
 | 14 | Is it possible to encrypt/decrypt a message using the platform's cryptography library? | Yes / No  |  |
 | 15 | What is the version of SSL/TLS the platform use? | SSL/TLS Version / Not applicable  |  |
+
+* **Result**: xx%
 
 # Hardware & Software Configuration
 
