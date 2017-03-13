@@ -1,4 +1,4 @@
-# Ability To Integrate with Other Tools
+# Compatibility
 
 ## Questionnaire
 

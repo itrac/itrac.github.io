@@ -16,7 +16,11 @@ For each plan defined by the vendor, answer:
 
 ### Maintenance Cost
 
-| 5 | Average cost to integrate tools or plug-ins | Monetary value / Not applicable |  | Governance / Platform |
+For each plan defined by the vendor, answer:
+
+| ID | Context | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 6 | Average cost to integrate tools or plug-ins | Monetary value / Not applicable |  | Governance / Platform |
 
 ## References
 

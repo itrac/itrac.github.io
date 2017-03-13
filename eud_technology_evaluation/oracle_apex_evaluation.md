@@ -1,29 +1,175 @@
 # Oracle Apex Evaluation
 
-## Application Domain
+# Functional Characteristics
+
+## Functionality
+
+### Application Domain
 
 1. Which features does the platform have?
 
-    **A:** Oracle Apex enables the building of database-driven web applications using graphic elements with wide compatibility with another Oracle’s tools. Furthermore, Oracle Apex provides a base applications library with varied contexts, like: data analysis and graphics generation; stock control; employer's control; calendar; among others. The EuD could start a project with one of the base applications and progress in development making modifications in the base functionality, could also increase new functionality. For experienced developers, Oracle Apex has an IDE (Integrated Development Environment) with full support to SQL, PL/SQL, Javascript and basic web languages, integration with Web SOAP and REST APIs services, further the responsive interfaces with jQuery Mobile. The integration with Oracle’s database enables access to powerful functionality like data mining, spatial database, RAS, among others.
-      * data analysis
-      * graphics generation
-      * stock control
-      * employer's control
-      * calendar
-      * data mining
-      * spatial database
-      * RAS
-      * integration with Web SOAP and REST APIs services
-      * responsive interfaces with jQuery Mobile
-      * security evaluation
+**A:** Oracle Apex enables the building of database-driven web applications using graphic elements with wide compatibility with another Oracle’s tools. Furthermore, Oracle Apex provides a base applications library with varied contexts, like: data analysis and graphics generation; stock control; employer's control; calendar; among others. The EuD could start a project with one of the base applications and progress in development making modifications in the base functionality, could also increase new functionality. For experienced developers, Oracle Apex has an IDE (Integrated Development Environment) with full support to SQL, PL/SQL, Javascript and basic web languages, integration with Web SOAP and REST APIs services, further the responsive interfaces with jQuery Mobile. The integration with Oracle’s database enables access to powerful functionality like data mining, spatial database, RAS, among others.
 
 1. Which features are described on platform's official media but were not found during the evaluation?
 
-    **A:** Not applicable
+**A:** Not applicable
 
 1. According to the platform's features, what is the category of the platform?
 
-    **A:** Database
+**A:** Database
+
+## Collaboration
+
+### Shareability
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 1 | Is it possible to share components with other collaborators? | Yes | Go to 'export', select components (pages) and export file <name> .sql that can be downloaded and shared | EUD / Platform |
+
+### Coordination of Actions
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 2 | Each collaborator can coordinate yourself? | Yes | Providing an area for tasks lists and delivery points | EUD / Platform |
+
+### Consequential Communication
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 3 | Is real time collaboration available? | No | When two users change the same field in the page, the first change is kept, and the second receive a error | EUD / Platform |
+| 4 | When a collaborator change a artifact, the owner is notified? | Yes | Changes to the applications are alerted in the section: 'News and messages'. As well as on the audit page | EUD / Platform |
+| 5 | Is existent a changelog of collaboration? | Yes |  | EUD / Platform |
+| 6 | Is there support for evaluation of individual history of each collaborator? | Yes |  | EUD / Platform |
+| 7 | Is there support to real time visualization? | No |  | EUD / Platform |
+
+### Finding Collaborators and Establishing Contact
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 8 | Are there ways to search for other collaborators? | Yes |  | EUD / Platform |
+| 9 | Does it allow communication between collaborators? | Yes | Through a feedback page | EUD / Platform |
+| 10 | Is it possible to determine a coordinator of real time collaboration? | Not applicable |  | EUD / Platform |
+| 11 | Is there support to feedback and evaluations of collaborations? | Yes | The user can feedback changes in the pages and create **comments developer** in template page | EUD / Platform |
+
+#### Concurrent Protection
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 12 | Are collaborators advised when other collaborators change an artifact? | No | But it is possible block modifications on a page | EUD / Platform |
+| 13 | Is it possible to recover from the negative effects of conflicts generated? | No |  | EUD / Platform |
+
+## Data Management
+
+### Data Management Process
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 1 | How does the data management is performed? | Through the structure of a set of tables in SQL, equals to Oracle Database |  | EUD / Platform |
+| 2 | How do data is accessed in the platform? | The data is visible through SQL calls or references to database tables |  | EUD / Platform |
+
+### Data Input and Output
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 3 | If it is possible to import data from files, which types of files are supported? | TXT, XML, CSV and SQL |  | EUD / Platform |
+| 4 | If it is possible to export data to files, which types of files are supported? | CSV |  | EUD / Platform |
+| 5 | Does the platform enable data transaction with external systems? If so, which protocols are supported to send and/or retrieve data? | Yes | Send data: Web Services with REST protocols; Retrieve data: REST and SOAP | Governance / Platform |
+
+### Required Technical Knowledge
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 6 | Is it required knowledge in relational programming languages? | Yes | It requires a minimum knowledge in SQL or PL/SQL | Governance / Platform |
+| 7 | Is it required knowledge in data modeling? | No | Is recommended the knowledge to handle primary and external keys in table data construction | Governance / Platform |
+| 8 | Is it required other category of technical knowledge? | No |  | Governance / Platform |
+
+# Cost and Benefit Characteristic
+
+## Cost
+
+### License 'user'
+
+#### License Cost
+
+| ID | Context | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 1 | Base price | 3.297,00 |   | Governance / Platform |
+| 2 | Maximum quantity of users | 1 |   Each connection is count as a user to **processor** license | Governance / Platform |
+| 3 | Price per additional user | 3.297,00 |    | Governance / Platform |
+| 4 | Expiration time | Permanent |   | Governance / Platform |
+| 5 | Additional information | Is possible choose a period to this license |   | Governance / Platform |
+
+#### Maintenance Cost
+
+| ID | Context | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 6 | Average cost to integrate tools or plug-ins | Not applicable |  | Governance / Platform |
+
+### License 'processor'
+
+#### License Cost
+
+| ID | Context | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 1 | Base price | 164.839,00 |  | Governance / Platform |
+| 2 | Maximum quantity of users | negotiable |  Each connection is count as a user to **processor** license | Governance / Platform |
+| 3 | Price per additional user | Not applicable |  | Governance / Platform |
+| 4 | Expiration time |   Permanent |  | Governance / Platform |
+| 6 | Additional information |  Is possible to choose a period to this license |  | Governance / Platform |
+
+#### Maintenance Cost
+
+| ID | Context | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 6 | Average cost to integrate tools or plug-ins | Not applicable |  | Governance / Platform |
+
+# Vendor Characteristic
+
+## Vendor
+
+### Contract Dependency
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 1 | Is it required a contract or formal negotiation in order to use the platform? | Yes | it is necessary the hiring of the Oracle’s services | Governance / Platform |
+| 2 | Is it required to purchase a plan or bundle in order to use the platform? | Yes | Oracle Apex is part of the Oracle Database package. On occur termination of the package adhesion, the projects maintained on Oracle Cloud. and the access to tools in local instances are froze | Governance / Platform |
+
+### Technology Dependency
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 1 | Is the platform restricts the complete access to the developed application? | Yes | The tool restrict the system development for only within the tool itself. The developed product code in the tool has an architecture highly dependent on the tool, which turns impossible to continue the development outside of it | Governance / Platform |
+| 2 | Is it required to use the platform in order to deploy the final developed application? | Yes | It isn't possible implant the system outside integration of the products contained in Oracle Database package | Governance / Platform |
+
+# Software Quality Characteristics
+
+## Compatibility
+
+### Technical Knowledge Requirement
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 1 | How much technical experience is necessary in order to perform integrations? | Average and Advanced | **Average** to use and Oracle suport like Oracle JET; <br>  **Advanced** to use javaScript and Css(e.g. Youtube, Paypal, Amazon S3, To outlook, Google services) | EUD / Platform |
+
+### Data Exchangeability
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 2 | If it is possible to use external database, does the platform guides the integration? | Not applicable  | | EUD / Platform |
+
+### Connectivity with External Component/System
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 3 | Is integration possible? | Yes |  | EUD / Platform |
+| 4 | Which tools can be integrated? | JavaScript and CSS; Oracle Access Manager; Google services (e.g. maps, calendar); Paypal; RSS feeds; YouTube; Ms sharepoint; Outlook; Amazon S3; Oracle JET. |  | EUD / Platform |
+| 5 | What are the integration methods supported by the platform? | Remote Procedures Call, Service Oriented Integration, Messaging |  | EUD / Platform |
+
+### Reusability
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 6 | Does the developer need to integrate a certain tool every time he/she wants to use it? | Yes |  | EUD/ Platform |
 
 ## Maintainability
 
@@ -42,241 +188,6 @@
 | 4 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | ~180 seconds | plug-in: GooglePlaces Mark | EUD / Platform |
 | 5 | How many modules/components can be exported from the scenario application? | 1 | The complete application can be exported as an module: User registry + GooglePlaces | EUD / Platform |
 | 6 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | 1 step | Import the application in workspace | EUD / Platform |
-
-
-## Cost
-
-### License 'user'
-
-| ID | Context | Answer |   Observations | Point of View |
-|:---|:---------------|:-------|:--------|:------------------|:----------|
-| 1 | Base price | 3.297,00 |   | Governance / Platform |
-| 2 | Maximum quantity of users | 1 |   Each connection is count as a user to **processor** license | Governance / Platform |
-| 3 | Price per additional user | 3.297,00 |    | Governance / Platform |
-| 4 | Expiration time | Permanent |   | Governance / Platform |
-| 5 | Average cost to integrate tools or plug-ins | Not applicable |  | Governance / Platform |
-| 6 | Additional information | Is possible choose a period to this license |   | Governance / Platform |
-
-### License 'processor'
-
-| ID | Context |  Answer | Observations | Point of View |
-|:---|:---------------|:-------|:--------|:------------------|:----------|
-| 1 | Base price | 164.839,00 |  | Governance / Platform |
-| 2 | Maximum quantity of users | negociable |  Each connection is count as a user to **processor** license | Governance / Platform |
-| 3 | Price per additional user | Not applicable |  | Governance / Platform |
-| 4 | Expiration time |   Permanent |  | Governance / Platform |
-| 5 | Average cost to integrate tools or plug-ins |Not applicable |  | Governance / Platform |
-| 6 | Additional information |  Is possible to choose a period to this license |  | Governance / Platform |
-
-## Vendor Dependency
-
-### Contract dependency
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 1 | Is it required a contract or formal negotiation in order to use the platform? | Yes | it is necessary the hiring of the Oracle’s services | Governance / Platform |
-| 2 | Is it required to purchase a plan or bundle in order to use the platform? | Yes | Oracle Apex is part of the Oracle Database package. On occur termination of the package adhesion, the projects maintained on Oracle Cloud. and the access to tools in local instances are freezed | Governance / Platform |
-
-### Technology dependency
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 1 | Is the platform restricts the complete access to the developed application? | Yes | The tool restrict the system development for only within the tool itself. The developed product code in the tool has an architecture highly dependent on the tool, which turns impossible to continue the development outside of it | Governance / Platform |
-| 2 | Is it required to use the platform in order to deploy the final developed application? | Yes | It isn't possible implant the system outside integration of the products contained in Oracle Database package | Governance / Platform |
-
-## Ability to Integrate with Other Tools
-
-#### Connectivity with External Component/System
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 1 | Is integration possible? | Yes |  | EUD / Platform |
-| 2 | Which tools can be integrated? | JavaScript and CSS; Oracle Access Manager; Google services (e.g. maps, calendar); Paypal; RSS feeds; YouTube; Ms sharepoint; Outlook; Amazon S3; Oracle JET. |  | EUD / Platform |
-| 3 | What are the integration methods supported by the platform? | Remote Procedures Call, Service Oriented Integration, Messaging |  | EUD / Platform |
-
-
-#### Technical Knowledge Requirement
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 4 | How much technical experience is necessary in order to perform integrations? | Average and Advanced | **Average** to use and Oracle suport like Oracle JET; <br>  **Advanced** to use javaScript and Css(e.g. Youtube, Paypal, Amazon S3, To outlook, google services) | EUD / Platform |
-
-#### Data Exchangeability
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 5 | If it is possible to use external database, does the platform guides the integration? | Not applicable  | | EUD / Platform |
-
-
-#### Reusability
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 6 | Does the developer need to integrate a certain tool every time he/she wants to use it? | Yes |  | EUD/ Platform |
-
-
-## Security
-
-#### Access Behaviors
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 1 | Is it required authentication in order to use the platform? | Yes |  | Governance / Platform |
-| 2 | Is it show a password quality in registry? | No |  | Governance / Platform |
-| 3 | Is it impossible to save session information? | Yes |  | Governance / Platform |
-| 4 | Is it impossible to keep multiple and simultaneous sessions? | Yes |  | Governance / Platform |
-| 5 | The session has expiration timer? | Yes | User can configure the time | Governance / Platform |
-
-#### Update Behaviors
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 6 | The platform notify when it has updates? | Yes |  | EUD / Platform |
-| 7 | Is it possible to configure automatic updates? | Yes |  | EUD / Platform |
-
-#### File Upload Security
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 8 | If the platform accepts file upload, is it check file type and size? | Yes | Check only the size | EUD / Platform |
-| 9 | If the platform accepts file upload, is it check if the content match with file type? | Yes |  | EUD / Platform |
-
-#### Report Behaviors
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 10 | Is it possible to select which information will be sent in a report message? | Yes |  | EUD / Platform |
-
-#### Developed Application Security
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 11 | Is it possible to analyze vulnerabilities of the developed application inside the platform? | Yes | The platform do it only automatic | EUD / Platform / Developed Application |
-| 12 | Exists documentation, messages, or notifications that explains about developed application's security? | Yes |  | EUD / Platform |
-
-#### Security Algorithms
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 13 | Is it possible to create hash using the platform's cryptography library? | Yes | MD5, SHA-1, SHA-2(256 bits, 384 bits, 512 bits), using script SQL | EUD / Platform |
-| 14 | Is it possible to encrypt/decrypt a message using the platform's cryptography library? | No |  | EUD / Platform |
-| 15 | What is the version of SSL/TLS the platform use? | 1.2 | Use only the TLS protocol | EUD / Platform |
-
-## Data Management
-
-#### Data Management Process
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 1 | How does the data management is performed? | Through the structure of a set of tables in SQL, equals to Oracle Database |  | EUD / Platform |
-| 2 | How do data is accessed in the platform? | The data is visible through SQL calls or references to database tables |  | EUD / Platform |
-
-#### Data Input and Output
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 3 | If it is possible to import data from files, which types of files are supported? | TXT, XML, CSV and SQL |  | EUD / Platform |
-| 4 | If it is possible to export data to files, which types of files are supported? | CSV |  | EUD / Platform |
-| 5 | Does the platform enable data transaction with external systems? If so, which protocols are supported to send and/or retrieve data? | Yes | Send data: Web Services with REST protocols; Retrieve data: REST and SOAP | Governance / Platform |
-
-#### Required Technical Knowledge
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 6 | Is it required knowledge in relational programming languages? | Yes | It requires a minimum knowledge in SQL or PL/SQL | Governance / Platform |
-| 7 | Is it required knowledge in data modeling? | No | Is recommended the knowledge to handle primary and external keys in table data construction | Governance / Platform |
-| 8 | Is it required other category of technical knowledge? | No |  | Governance / Platform |
-
-## Reliability
-
-### Availability
-
-
-| ID | Context | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 1 | Platform's failure log count | Not applicable | Log not available | IT Manager / Platform |
-| 2 | Reliability by log | Not applicable | Log not available | IT Manager / Platform |
-
-### Vendor Support
-
-| ID | Context | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 3 | Which releases were chosen to be analyzed? | from 4.0 to 5.1 | 2200 days | IT Manager / Platform |
-| 4 | What is the average time for a platform's new release? | 179,58 (SD = 117,86) | | IT Manager / Platform |
-| 5 | What is the average defects in each platform's release? | Not applicable | Vendor don't share the bugs report for each release, only the cumulative know issues | IT Manager / Platform |
-| 6 | What is the average of fixes in each platform's release? | 73,46 (SD = 56,89) | | IT Manager / Platform |
-| 7 | What is the total number of fixes in each platform's release? | 955 |  | IT Manager / Platform |
-
-## Collaboration
-
-#### Shareability
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 1 | Is it possible to share components with other collaborators? | Yes | Go to 'export', select components (pages) and export file <name> .sql that can be downloaded and shared | EUD / Platform |
-
-#### Coordination of Actions
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 2 | Each collaborator can coordinate yourself? | Yes | Providing an area for tasks lists and delivery points | EUD / Platform |
-
-#### Consequential Communication
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 3 | Is real time collaboration available? | No | When two users change the same field in the page, the first change is kept, and the second receive a error | EUD / Platform |
-| 4 | When a collaborator change a artifact, the owner is notified? | Yes | Changes to the applications are alerted in the section: 'News and messages'. As well as on the audit page | EUD / Platform |
-| 5 | Is existent a changelog of collaboration? | Yes |  | EUD / Platform |
-| 6 | Is there support for evaluation of individual history of each collaborator? | Yes |  | EUD / Platform |
-| 7 | Is there support to real time visualization? | No |  | EUD / Platform |
-
-#### Finding Collaborators and Establishing Contact
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 8 | Are there ways to search for other collaborators? | Yes |  | EUD / Platform |
-| 9 | Does it allow communication between collaborators? | Yes | Through a feedback page | EUD / Platform |
-| 10 | Is it possible to determine a coordinator of real time collaboration? | Not applicable |  | EUD / Platform |
-| 11 | Is there support to feedback and evaluations of collaborations? | Yes | The user can feedback changes in the pages and create **comments developer** in template page | EUD / Platform |
-
-#### Concurrent Protection
-
-| ID | Question | Answer | Observations | Point of View |
-|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
-| 12 | Are collaborators advised when other collaborators change an artifact? | No | But it is possible block modifications on a page | EUD / Platform |
-| 13 | Is it possible to recover from the negative effects of conflicts generated? | No |  | EUD / Platform |
-
-## Performance
-
-### Response Time
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Are response times appropriate to the task? | Yes  |  |
-| 2 | Typing, cursor motion, mouse selection: 50-1 50 milliseconds | Yes |  |
-
-### Turnaround Time
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 3 | If there are observable delays (greater than fifteen seconds) in the system’s response time, is the user kept informed of the system's progress? | No |  |
-| 4 | Simple, frequent tasks: less than 1 second | Yes |  |
-| 5 | Common tasks: 2-4 seconds | Yes |  |
-| 6 | Complex tasks: 8-12 seconds | No |  |
-
-## Hardware & Software Configuration
-
-| ID | Context | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | RAM | 2 GB | |
-| 2 | Processor | 550 MHz | |
-| 3 | Disk space | 700 MB | |
-| 4 | Software dependencies | Don't have | |
-| 5 | Protocols | PL/SQL gateway <br> Oracle HTTP Server <br> mod_plsql | |
-| 6 | Operating system | Windows 7 or higher | |
-| 7 | Database | Oracle9i release 2 (9.2) or higher <br> Oracle9i Application Server R1 (1.0.2.2) or higher <br> Oracle Database 10g R1 or R2 <br> Oracle Database 11g R1 | |
-| 8 | Alternative technologies | Not Applicable | |
 
 ## Usability
 
@@ -567,6 +478,103 @@
 | 15.14 | Validation of fields works properly (e.g. postal codes) | No |  |
 | 15.15 | Lists are sorted according to target language and region | Yes |  |
 
+## Reliability
 
+### Availability
+
+| ID | Context | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 1 | Platform's failure log count | Not applicable | Log not available | IT Manager / Platform |
+| 2 | Reliability by log | Not applicable | Log not available | IT Manager / Platform |
+
+### Vendor Support
+
+| ID | Context | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 3 | Which releases were chosen to be analyzed? | from 4.0 to 5.1 | 2200 days | IT Manager / Platform |
+| 4 | What is the average time for a platform's new release? | 179,58 (SD = 117,86) | | IT Manager / Platform |
+| 5 | What is the average defects in each platform's release? | Not applicable | Vendor don't share the bugs report for each release, only the cumulative know issues | IT Manager / Platform |
+| 6 | What is the average of fixes in each platform's release? | 73,46 (SD = 56,89) | | IT Manager / Platform |
+| 7 | What is the total number of fixes in each platform's release? | 955 |  | IT Manager / Platform |
+
+## Performance Efficiency
+
+### Response Time
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Are response times appropriate to the task? | Yes  |  |
+| 2 | Typing, cursor motion, mouse selection: 50-1 50 milliseconds | Yes |  |
+
+### Turnaround Time
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 3 | If there are observable delays (greater than fifteen seconds) in the system’s response time, is the user kept informed of the system's progress? | No |  |
+| 4 | Simple, frequent tasks: less than 1 second | Yes |  |
+| 5 | Common tasks: 2-4 seconds | Yes |  |
+| 6 | Complex tasks: 8-12 seconds | No |  |
+
+## Security
+
+### Access Behaviors
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 1 | Is it required authentication in order to use the platform? | Yes |  | Governance / Platform |
+| 2 | Is it show a password quality in registry? | No |  | Governance / Platform |
+| 3 | Is it impossible to save session information? | Yes |  | Governance / Platform |
+| 4 | Is it impossible to keep multiple and simultaneous sessions? | Yes |  | Governance / Platform |
+| 5 | The session has expiration timer? | Yes | User can configure the time | Governance / Platform |
+
+### Developed Application Security
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 6 | Is it possible to analyze vulnerabilities of the developed application inside the platform? | Yes | The platform do it only automatic | EUD / Platform / Developed Application |
+| 7 | Exists documentation, messages, or notifications that explains about developed application's security? | Yes |  | EUD / Platform |
+
+### Update Behaviors
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 8 | The platform notify when it has updates? | Yes |  | EUD / Platform |
+| 9 | Is it possible to configure automatic updates? | Yes |  | EUD / Platform |
+
+### File Upload Security
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 10 | If the platform accepts file upload, is it check file type and size? | Yes | Check only the size | EUD / Platform |
+| 11 | If the platform accepts file upload, is it check if the content match with file type? | Yes |  | EUD / Platform |
+
+### Report Behaviors
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 12 | Is it possible to select which information will be sent in a report message? | Yes |  | EUD / Platform |
+
+### Security Algorithms
+
+| ID | Question | Answer | Observations | Point of View |
+|:---|:----------------------------------------------------|:------------------|:------------------|:-----------------|
+| 13 | Is it possible to create hash using the platform's cryptography library? | Yes | MD5, SHA-1, SHA-2(256 bits, 384 bits, 512 bits), using script SQL | EUD / Platform |
+| 14 | Is it possible to encrypt/decrypt a message using the platform's cryptography library? | No |  | EUD / Platform |
+| 15 | What is the version of SSL/TLS the platform use? | 1.2 | Use only the TLS protocol | EUD / Platform |
+
+# Hardware & Software Configuration
+
+## Hardware & Software Configuration
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | RAM | 2 GB | |
+| 2 | Processor | 550 MHz | |
+| 3 | Disk space | 700 MB | |
+| 4 | Software dependencies | Don't have | |
+| 5 | Protocols | PL/SQL gateway <br> Oracle HTTP Server <br> mod_plsql | |
+| 6 | Operating system | Windows 7 or higher | |
+| 7 | Database | Oracle9i release 2 (9.2) or higher <br> Oracle9i Application Server R1 (1.0.2.2) or higher <br> Oracle Database 10g R1 or R2 <br> Oracle Database 11g R1 | |
+| 8 | Alternative technologies | Not Applicable | |
 
 _[(Back to EuD Technology Evaluation Page)](../eud_technology_evaluation)_

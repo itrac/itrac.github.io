@@ -1,5 +1,7 @@
 # Maintainability
 
+## Questionnaire
+
 ### Modifiability
 
 | ID | Question | Answer | Observations | Point of View |
@@ -7,7 +9,6 @@
 | 1 | Can the maintainer easily modify the application in order to solve an issue? | Yes / No |  | EUD / Platform |
 | 2 | If found the module, how many changes on application were necessary in order to use it? | Integer value / Not applicable |  | EUD / Platform |
 | 3 | If it is possible to reuse an exported module, can the user change it? | Yes /No / Not applicable |  | EUD / Platform |
-
 
 ### Reusability
 
