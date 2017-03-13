@@ -1,6 +1,10 @@
 # Salesforce Lightning Evaluation
 
-## Application Domain
+# Functional Characteristics
+
+## Functionality
+
+### Application Domain
 
 1. Which features does the platform have?
 
@@ -13,232 +17,6 @@
 1. According to the platform's features, what is the category of the platform?
 
 	**A**: General-purpose
-
-## Maintainability
-
-### Modifiability
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Can the maintainer easily modify the application in order to solve an issue? | No |  |
-| 2 | If found the module, how many changes on application were necessary in order to use it? | 8 | Click on _Get It Now_ button, choose the source project, extract the component, copy the components features that will be used, create the page, paste the components features, integrate with data |
-| 3 | If it is possible to reuse an exported module, can the user change it? | Yes | |
-
-### Reusability
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 4 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | ~160 seconds | Module: Heatmap Generator |
-| 5 | How many modules/components can be exported from the scenario application? | Not applicable | The scenario does not have modules that can be exported |
-| 6 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | at least 3 | Extract the component, copy the component features, paste the component features |
-
-## Cost
-
-* Starter Plan
-
-| ID | Context | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Base price | $ 300,00 |  |
-| 2 | Maximum quantity of users | 1 |  |
-| 3 | Price per additional user | $ 300,00 |  |
-| 4 | Expiration time | 1 year |  |
-| 5 | Average cost to integrate tools or plug-ins | Not applicable |  |
-| 6 | Additional information | Plan allows to create a limited quantity of web systems and mobile applications (with the Salesforce Mobile platform) | Limit quantity unknown |
-
-* Professional Plan
-
-| ID | Context | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Base price | $ 900,00 |  |
-| 2 | Maximum quantity of users | 1  |  |
-| 3 | Price per additional user | $ 900,00 |  |
-| 4 | Expiration time | 1 year |  |
-| 5 | Average cost to integrate tools or plug-ins | Not applicable |  |
-| 6 | Additional information | Plan allows to create unlimited web systems and mobile applications |  |
-
-* Enterprise Plan
-
-| ID | Context | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Base price | $ 1800,00 |  |
-| 2 | Maximum quantity of users | 1  |  |
-| 3 | Price per additional user | $ 1800,00 |  |
-| 4 | Expiration time | 1 year |  |
-| 5 | Average cost to integrate tools or plug-ins | Not applicable |  |
-| 6 | Additional information | Plan allows to create unlimited web systems and mobile applications, and to integrate with the Salesforce API/Web services |  |
-
-* Unlimited Plan
-
-| ID | Context | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Base price | $ 3600,00 |  |
-| 2 | Maximum quantity of users | 1  |  |
-| 3 | Price per additional user | $ 3600,00 |  |
-| 4 | Expiration time | 1 year |  |
-| 5 | Average cost to integrate tools or plug-ins | Not applicable |  |
-| 6 | Additional information | Plan allows to create unlimited web systems and mobile applications, to integrate with the Salesforce API/Web services, and 24 hours support |  |
-
-## Vendor Dependency
-
-### Contract dependency
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Is it required a contract or formal negotiation in order to use the platform? | Yes | It is required a contract in order to use Salesforce Lightning |
-| 2 | Is it required to purchase a plan or bundle in order to use the platform? | Yes | The contract is based in a plan with quantity of users and period of time restrictions. In case of contract termination, all the systems developed or in development will become unavailable. |
-
-* **Result**: 100%
-
-### Technology dependency
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 3 | Is the platform restricts the complete access to the developed application? | No |  |
-| 4 | Is it required to use the platform in order to deploy the final developed application? | No | However, it is necessary to change a massive quantity of elements in the source code because of the high dependency with the platform's features and data |
-
-* **Result**: 0%
-
-## Ability to Integrate with Other Tools
-
-### Connectivity with External Component/System
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Is integration possible? | No |  |
-| 2 | Which tools can be integrated? | Not applicable |  |
-| 3 | What are the integration methods supported by the platform? | Not applicable |  |
-
-
-### Technical Knowledge Requirement
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 4 | How much technical experience is necessary in order to perform integrations? | Not applicable |  |
-
-### Data Exchangeability
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 5 | If it is possible to use external database, does the platform guides the integration? | No |  |
-
-
-### Reusability
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 6 | Does the developer need to integrate a certain tool every time he/she wants to use it? | Not applicable |  |
-
-## Security
-
-### Access Behaviors
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Is it required authentication in order to use the platform? | Yes |  |
-| 2 | Is it show a password quality in registry? | No |  |
-| 3 | Is it impossible to save session information? | No |  |
-| 4 | Is it not possible to keep multiple and simultaneous sessions? | Yes |  |
-| 5 | The session has expiration timer? | Yes |  |
-
-* **Result**: 60%
-
-### Update Behaviors
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 6 | The platform notify when it has updates? | Yes |  |
-| 7 | Is it possible to configure automatic updates? | Yes |  |
-
-* **Result**: 100%
-
-### File Upload Security
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 8 | If the platform accepts file upload, is it check file type and size? | Yes |  |
-| 9 | If the platform accepts file upload, is it check if the content match with file type? | Yes |  |
-
-* **Result**: 100%
-
-### Report Behaviors
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 10 | Is it possible to select which information will be sent in a report message? | No |  |
-
-* **Result**: 0%
-
-### Developed Application Security
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 11 | Is it possible to analyze vulnerabilities of the developed application inside the platform? | No |  |
-| 12 | Exists documentation, messages, or notifications that explains about developed application's security? | Yes |  |
-
-* **Result**: 100%
-
-### Security Algorithms
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 13 | Is it possible to create hash using the platform's cryptography library? | Yes | MD5, SHA-1, SHA-2 (256 and 512 bits) |
-| 14 | Is it possible to encrypt/decrypt a message using the platform's cryptography library? | Yes | AES - 128/256 bits, RSA |
-| 15 | What is the version of SSL/TLS the platform use? | TLS: 1.2 or inferior |  |
-
-* **Result**: 100%
-
-## Data Management
-
-### Data Management Process
-
-1. How does the data management is performed?
-
-	**A**: Every data element is an instance of an object (or field). Objects can be created by using the graphical entity-relationship model generator, where can be defined the objects, their attributes and the relationship between them.
-
-1. How do data is accessed in the platform?
-
-	**A**: By referencing the objects defined in the entity-relationship model. It is possible to use SOQL (Salesforce Object Query Language, simillar to SQL) calls in order to search and filter data.
-
-
-### Data Input and Output
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 3 | If it is possible to import data from files, which types of files are supported? | CSV |  |
-| 4 | If it is possible to export data to files, which types of files are supported? | CSV |  |
-| 5 | Does the platform enable data transaction with external systems? If so, which protocols are supported to send and/or retrieve data? | Yes (Enterprise Plan); Send Data: REST, SOAP; Retrieve Data: SQL, SOAP, REST |  |
-
-* **Result**: 100%
-
-### Required Technical Knowledge
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 6 | Is it required knowledge in relational programming languages? | No |  |
-| 7 | Is it required knowledge in data modeling? | Yes |  |
-| 8 | Is it required other category of technical knowledge? | No |  |
-
-* **Result**: 33%
-
-## Reliability
-
-### Availability
-
-| ID | Context | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Platform's failure log count | Not applicable |  |
-| 2 | Reliability by log | Not applicable |  |
-
-* **Result**: Not applicable
-
-### Vendor Support
-
-| ID | Question | Answer | Observations |
-|:---|:----------------------------------------------------|:------------------|:------------------|
-| 3 | Which releases were chosen to be analyzed? | spring'14, summer'15, autumn'16, winters'17 |
-| 4 | What is the average time for a platform's new release? | 14.65 (SD: 14.14) |  |
-| 5 | What is the average defects in each platform's release? | Not applicable | The required information was not found |
-| 6 | What is the average of fixes in each platform's release? | 1.81 (DP: 1.02) |  |
-| 7 | What is the total number of fixes in each platform's release? | 147 | For all the releases analyzed |
 
 ## Collaboration
 
@@ -290,40 +68,192 @@
 
 * **Result**: 0%
 
-## Performance
+## Data Management
 
-### Response Time
+### Data Management Process
+
+1. How does the data management is performed?
+
+	**A**: Every data element is an instance of an object (or field). Objects can be created by using the graphical entity-relationship model generator, where can be defined the objects, their attributes and the relationship between them.
+
+1. How do data is accessed in the platform?
+
+	**A**: By referencing the objects defined in the entity-relationship model. It is possible to use SOQL (Salesforce Object Query Language, simillar to SQL) calls in order to search and filter data.
+
+### Data Input and Output
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Are response times appropriate to the task? | Yes |  |
-| 2 | Typing, cursor motion, mouse selection: 50-1 50 milliseconds | Yes |  |
+| 3 | If it is possible to import data from files, which types of files are supported? | CSV |  |
+| 4 | If it is possible to export data to files, which types of files are supported? | CSV |  |
+| 5 | Does the platform enable data transaction with external systems? If so, which protocols are supported to send and/or retrieve data? | Yes (Enterprise Plan); Send Data: REST, SOAP; Retrieve Data: SQL, SOAP, REST |  |
 
 * **Result**: 100%
 
-### Turnaround Time
+### Required Technical Knowledge
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
-| 3 | If there are observable delays (greater than fifteen seconds) in the system’s response time, is the user kept informed of the system's progress? | No |  |
-| 4 | Simple, frequent tasks: less than 1 second | Yes |  |
-| 5 | Common tasks: 2-4 seconds | Yes |  |
-| 6 | Complex tasks: 8-12 seconds | Yes |  |
+| 6 | Is it required knowledge in relational programming languages? | No |  |
+| 7 | Is it required knowledge in data modeling? | Yes |  |
+| 8 | Is it required other category of technical knowledge? | No |  |
 
-* **Result**: 75%
+* **Result**: 33%
+# Cost and Benefit Characteristic
 
-## Hardware & Software Configuration
+## Cost
+
+### License 'Starter Plan'
+
+#### License Cost
 
 | ID | Context | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | RAM | Not applicable | |
-| 2 | Processor | Not applicable | |
-| 3 | Disk space | Not applicable | |
-| 4 | Software dependencies | Web browser | |
-| 5 | Protocols | HTTPS (with valid TLS) | |
-| 6 | Operating system | Not applicable | |
-| 7 | Database | Not applicable | |
-| 8 | Alternative technologies | Not applicable | |
+| 1 | Base price | $ 300,00 |  |
+| 2 | Maximum quantity of users | 1 |  |
+| 3 | Price per additional user | $ 300,00 |  |
+| 4 | Expiration time | 1 year |  |
+| 5 | Additional information | Plan allows to create a limited quantity of web systems and mobile applications (with the Salesforce Mobile platform) | Limit quantity unknown |
+
+#### Maintenance Cost
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 6 | Average cost to integrate tools or plug-ins | Not applicable |  |
+
+### License 'Professional Plan'
+
+#### License Cost
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Base price | $ 900,00 |  |
+| 2 | Maximum quantity of users | 1  |  |
+| 3 | Price per additional user | $ 900,00 |  |
+| 4 | Expiration time | 1 year |  |
+| 5 | Additional information | Plan allows to create unlimited web systems and mobile applications |  |
+
+#### Maintenance Cost
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 6 | Average cost to integrate tools or plug-ins | Not applicable |  |
+
+### License 'Enterprise Plan'
+
+#### License Cost
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Base price | $ 1800,00 |  |
+| 2 | Maximum quantity of users | 1  |  |
+| 3 | Price per additional user | $ 1800,00 |  |
+| 4 | Expiration time | 1 year |  |
+| 5 | Additional information | Plan allows to create unlimited web systems and mobile applications, and to integrate with the Salesforce API/Web services |  |
+
+#### Maintenance Cost
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 6 | Average cost to integrate tools or plug-ins | Not applicable |  |
+
+### License 'Unlimited Plan'
+
+#### License Cost
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Base price | $ 3600,00 |  |
+| 2 | Maximum quantity of users | 1  |  |
+| 3 | Price per additional user | $ 3600,00 |  |
+| 4 | Expiration time | 1 year |  |
+| 5 | Additional information | Plan allows to create unlimited web systems and mobile applications, to integrate with the Salesforce API/Web services, and 24 hours support |  |
+
+#### Maintenance Cost
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 6 | Average cost to integrate tools or plug-ins | Not applicable |  |
+
+# Vendor Characteristic
+
+## Vendor
+
+### Contract dependency
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Is it required a contract or formal negotiation in order to use the platform? | Yes | It is required a contract in order to use Salesforce Lightning |
+| 2 | Is it required to purchase a plan or bundle in order to use the platform? | Yes | The contract is based in a plan with quantity of users and period of time restrictions. In case of contract termination, all the systems developed or in development will become unavailable. |
+
+* **Result**: 100%
+
+### Technology dependency
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 3 | Is the platform restricts the complete access to the developed application? | No |  |
+| 4 | Is it required to use the platform in order to deploy the final developed application? | No | However, it is necessary to change a massive quantity of elements in the source code because of the high dependency with the platform's features and data |
+
+* **Result**: 0%
+
+# Software Quality Characteristics
+
+## Compatibility
+
+### Technical Knowledge Requirement
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | How much technical experience is necessary in order to perform integrations? | Not applicable |  |
+
+* **Result**: Not applicable
+
+### Data Exchangeability
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 2 | If it is possible to use external database, does the platform guides the integration? | No |  |
+
+* **Result**: 0%
+
+### Connectivity with External Component/System
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 3 | Is integration possible? | No |  |
+| 4 | Which tools can be integrated? | Not applicable |  |
+| 5 | What are the integration methods supported by the platform? | Not applicable |  |
+
+* **Result**: Impossible
+
+### Reusability
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 6 | Does the developer need to integrate a certain tool every time he/she wants to use it? | Not applicable |  |
+
+* **Result**: Not applicable
+
+## Maintainability
+
+### Modifiability
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Can the maintainer easily modify the application in order to solve an issue? | No |  |
+| 2 | If found the module, how many changes on application were necessary in order to use it? | 8 | Click on _Get It Now_ button, choose the source project, extract the component, copy the components features that will be used, create the page, paste the components features, integrate with data |
+| 3 | If it is possible to reuse an exported module, can the user change it? | Yes | |
+
+* **Result**: 50%
+
+### Reusability
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 4 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | ~160 seconds | Module: Heatmap Generator |
+| 5 | How many modules/components can be exported from the scenario application? | Not applicable | The scenario does not have modules that can be exported |
+| 6 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | at least 3 | Extract the component, copy the component features, paste the component features |
 
 ## Usability
 
@@ -643,5 +573,122 @@
 | 15.15 | Lists are sorted according to target language and region | No |  |
 
 * **Result**: 47%
+
+## Reliability
+
+### Availability
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Platform's failure log count | Not applicable |  |
+| 2 | Reliability by log | Not applicable |  |
+
+* **Result**: Not applicable
+
+### Vendor Support
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 3 | Which releases were chosen to be analyzed? | spring'14, summer'15, autumn'16, winters'17 |
+| 4 | What is the average time for a platform's new release? | 14.65 (SD: 14.14) |  |
+| 5 | What is the average defects in each platform's release? | Not applicable | The required information was not found |
+| 6 | What is the average of fixes in each platform's release? | 1.81 (DP: 1.02) |  |
+| 7 | What is the total number of fixes in each platform's release? | 147 | For all the releases analyzed |
+
+## Performance Efficiency
+
+### Response Time
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Are response times appropriate to the task? | Yes |  |
+| 2 | Typing, cursor motion, mouse selection: 50-1 50 milliseconds | Yes |  |
+
+* **Result**: 100%
+
+### Turnaround Time
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 3 | If there are observable delays (greater than fifteen seconds) in the system’s response time, is the user kept informed of the system's progress? | No |  |
+| 4 | Simple, frequent tasks: less than 1 second | Yes |  |
+| 5 | Common tasks: 2-4 seconds | Yes |  |
+| 6 | Complex tasks: 8-12 seconds | Yes |  |
+
+* **Result**: 75%
+
+## Security
+
+### Access Behaviors
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | Is it required authentication in order to use the platform? | Yes |  |
+| 2 | Is it show a password quality in registry? | No |  |
+| 3 | Is it impossible to save session information? | No |  |
+| 4 | Is it not possible to keep multiple and simultaneous sessions? | Yes |  |
+| 5 | The session has expiration timer? | Yes |  |
+
+* **Result**: 60%
+
+### Developed Application Security
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 6 | Is it possible to analyze vulnerabilities of the developed application inside the platform? | No |  |
+| 7 | Exists documentation, messages, or notifications that explains about developed application's security? | Yes |  |
+
+* **Result**: 100%
+
+### Update Behaviors
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 8 | The platform notify when it has updates? | Yes |  |
+| 9 | Is it possible to configure automatic updates? | Yes |  |
+
+* **Result**: 100%
+
+### File Upload Security
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 10 | If the platform accepts file upload, is it check file type and size? | Yes |  |
+| 11 | If the platform accepts file upload, is it check if the content match with file type? | Yes |  |
+
+* **Result**: 100%
+
+### Report Behaviors
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 12 | Is it possible to select which information will be sent in a report message? | No |  |
+
+* **Result**: 0%
+
+### Security Algorithms
+
+| ID | Question | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 13 | Is it possible to create hash using the platform's cryptography library? | Yes | MD5, SHA-1, SHA-2 (256 and 512 bits) |
+| 14 | Is it possible to encrypt/decrypt a message using the platform's cryptography library? | Yes | AES - 128/256 bits, RSA |
+| 15 | What is the version of SSL/TLS the platform use? | TLS: 1.2 or inferior |  |
+
+* **Result**: 100%
+
+# Hardware & Software Configuration
+
+## Hardware & Software Configuration
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 1 | RAM | Not applicable | |
+| 2 | Processor | Not applicable | |
+| 3 | Disk space | Not applicable | |
+| 4 | Software dependencies | Web browser | |
+| 5 | Protocols | HTTPS (with valid TLS) | |
+| 6 | Operating system | Not applicable | |
+| 7 | Database | Not applicable | |
+| 8 | Alternative technologies | Not applicable | |
 
 _[(Back to EuD Technology Evaluation Page)](../eud_technology_evaluation)_

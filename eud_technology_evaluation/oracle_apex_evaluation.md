@@ -132,7 +132,7 @@
 | 2 | Maximum quantity of users | negotiable |  Each connection is count as a user to **processor** license |
 | 3 | Price per additional user | Not applicable |  |
 | 4 | Expiration time |   Permanent |  |
-| 6 | Additional information |  Is possible to choose a period to this license |  |
+| 5 | Additional information |  Is possible to choose a period to this license |  |
 
 #### Maintenance Cost
 
@@ -153,13 +153,12 @@
 
 * **Result**: 100%
 
-
 ### Technology Dependency
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Is the platform restricts the complete access to the developed application? | Yes | The tool restrict the system development for only within the tool itself. The developed product code in the tool has an architecture highly dependent on the tool, which turns impossible to continue the development outside of it |
-| 2 | Is it required to use the platform in order to deploy the final developed application? | Yes | It isn't possible implant the system outside integration of the products contained in Oracle Database package |
+| 3 | Is the platform restricts the complete access to the developed application? | Yes | The tool restrict the system development for only within the tool itself. The developed product code in the tool has an architecture highly dependent on the tool, which turns impossible to continue the development outside of it |
+| 4 | Is it required to use the platform in order to deploy the final developed application? | Yes | It isn't possible implant the system outside integration of the products contained in Oracle Database package |
 
 * **Result**: 100%
 

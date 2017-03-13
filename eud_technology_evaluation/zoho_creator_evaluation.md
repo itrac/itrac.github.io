@@ -1,4 +1,4 @@
-# Oracle Apex Evaluation
+# Zoho Creator Evaluation
 
 # Functional Characteristics
 
@@ -104,9 +104,9 @@
 
 ## Cost
 
-### License Cost
+### License 'Basic'
 
-* Basic
+#### License Cost
 
 | ID | Context | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
@@ -116,7 +116,15 @@
 | 4 | Expiration time | 1 month |  |
 | 5 | Additional information | It is limited 3 applications and 25.000 records | Limited features |
 
-* Premium
+#### Maintenance Cost
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 6 | Average cost to integrate tools or plug-ins | Not applicable | The component cost is gave by creator for comercial licenses |
+
+### License 'Premium'
+
+#### License Cost
 
 | ID | Context | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
@@ -126,7 +134,15 @@
 | 4 | Expiration time | 1 month |  |
 | 5 | Additional information | It is limited 50 applications and do not limit records |  |
 
-* Express
+#### Maintenance Cost
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 6 | Average cost to integrate tools or plug-ins | Not applicable | The component cost is gave by creator for comercial licenses |
+
+### License 'Express'
+
+#### License Cost
 
 | ID | Context | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
@@ -136,7 +152,15 @@
 | 4 | Expiration time | 1 month |  |
 | 5 | Additional information | It is limited 100 applications and 250.000 records | Not support multi-language |
 
-* Express Plus
+#### Maintenance Cost
+
+| ID | Context | Answer | Observations |
+|:---|:----------------------------------------------------|:------------------|:------------------|
+| 6 | Average cost to integrate tools or plug-ins | Not applicable | The component cost is gave by creator for comercial licenses |
+
+### License 'Express Plus'
+
+#### License Cost
 
 | ID | Context | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
@@ -146,9 +170,7 @@
 | 4 | Expiration time | 1 month |  |
 | 5 | Additional information | Unlimited records and applications |  |
 
-### Maintenance Cost
-
-For each plan defined by the vendor, answer:
+#### Maintenance Cost
 
 | ID | Context | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
