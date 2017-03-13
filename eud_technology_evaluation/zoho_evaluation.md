@@ -20,17 +20,17 @@
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
-| 1 | Can the maintainer easily modify the application in order to solve an issue? | No |  |
-| 2 | If found the module, how many changes on application were necessary in order to use it? | 8 | Click on _Get It Now_ button, choose the source project, extract the component, copy the components features that will be used, create the page, paste the components features, integrate with data |
+| 1 | Can the maintainer easily modify the application in order to solve an issue? | Yes |  |
+| 2 | If found the module, how many changes on application were necessary in order to use it? | 6 | Access dashboard from zoho creator; click in Marketplace; search for google maps; click in Install this App; then back to dashboard of zoho creaator and use; |
 | 3 | If it is possible to reuse an exported module, can the user change it? | Yes | |
 
 ### Reusability
 
 | ID | Question | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
-| 4 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | ~160 seconds | Module: Heatmap Generator |
+| 4 | How much time was spent to find some (Ex.: address module) module/component at the platform's community? | ~180 seconds | Component: google maps in market place |
 | 5 | How many modules/components can be exported from the scenario application? | Not applicable | The scenario does not have modules that can be exported |
-| 6 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | at least 3 | Extract the component, copy the component features, paste the component features |
+| 6 | If it is possible to reuse an exported module, what/how many are the steps in order to use it? | at least 9 | Add the component to Zoho creator dashboard; access the workflow in menu of the application; copy the "form definition" with and without action; paste in your own application.|
 
 ## Cost
 
