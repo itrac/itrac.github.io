@@ -111,7 +111,7 @@
 | ID | Context | Answer | Observations |
 |:---|:----------------------------------------------------|:------------------|:------------------|
 | 1 | Base price | 3.297,00 |   |
-| 2 | Maximum quantity of users | 1 |   Each connection is count as a user to **processor** license |
+| 2 | Maximum quantity of users | 1 |  |
 | 3 | Price per additional user | 3.297,00 |    |
 | 4 | Expiration time | Permanent |   |
 | 5 | Additional information | Is possible choose a period to this license |   |
@@ -247,7 +247,7 @@
 | 1.19 | Does the system provide visibility: that is, by looking, can the user tell the state of the system and the alternatives for action? | No |  |
 | 1.20 | If users must navigate between multiple screens, does the system use context labels, menu maps, and place markers as navigational aids? | Yes |  |
 
-* **Result**: xx%
+* **Result**: 70%
 
 ### 2. Match Between System and the Real World
 
@@ -266,7 +266,7 @@
 | 2.11 | Does the system automatically enter commas in numeric values greater than 9999? | Yes |  |
 | 2.12 | Do GUI menus offer activation: that is, make obvious how to say "now do it"? | No |  |
 
-* **Result**: xx%
+* **Result**: 58%
 
 ### 3. User Control and Freedom
 
@@ -292,7 +292,7 @@
 | 3.18 | Can users easily reverse their actions? | Yes  |  |
 | 3.19 | If the system allows users to reverse their actions, is there a retracing mechanism to allow for multiple undo? | Yes |  |
 
-* **Result**: xx%
+* **Result**: 68%
 
 ### 4. Consistency and Standards
 
@@ -325,7 +325,7 @@
 | 4.25 | If the system has multipage data entry screens, do all pages have the same title? | Yes |  |
 | 4.26 | If the system has multipage data entry screens, does each page have a sequential page number? | No |  |
 
-* **Result**: xx%
+* **Result**: 88%
 
 ### 5. Help Users Recognize, Diagnose, and Recover From Errors
 
@@ -348,7 +348,7 @@
 | 5.15 | Do error messages indicate what action the user needs to take to correct the error? | Yes |  |
 | 5.16 | If the system supports both novice and expert users, are multiple levels of error-message detail available? | No |  |
 
-* **Result**: xx%
+* **Result**: 93%
 
 ### 6. Error Prevention
 
@@ -363,7 +363,7 @@
 | 6.7 | Do data entry screens and dialog boxes indicate the number of character spaces available in a field? | No |  |
 | 6.8 | Do fields in data entry screens and dialog boxes contain default values when appropriate? | Yes |  |
 
-* **Result**: xx%
+* **Result**: 75%
 
 ### 7. Recognition Rather Than Recall
 
@@ -395,7 +395,7 @@
 | 7.24 | Do GUI menus offer affordance: that is, make obvious where selection is possible? | Yes |  |
 | 7.25 | Do data entry screens and dialog boxes indicate when fields are optional? | Yes |  |
 
-* **Result**: xx%
+* **Result**: 91%
 
 ### 8. Flexibility and Minimalist Design
 
@@ -411,7 +411,7 @@
 | 8.8 | In dialog boxes, do users have the option of either clicking directly on a dialog box option or using a keyboard shortcut? | No |  |
 | 8.9 | Can expert users bypass nested dialog boxes with either type-ahead, user-defined macros, or keyboard shortcuts? | No |  |
 
-* **Result**: xx%
+* **Result**: 33%
 
 ### 9. Aesthetic and Minimalist Design
 
@@ -428,7 +428,7 @@
 | 9.9 | Is each lower-level menu choice associated with only one higher level menu? | Yes |  |
 | 9.10 | Are there pop-up or pull-down menus within data entry fields that have many, but well-defined, entry options? | Yes |  |
 
-* **Result**: xx%
+* **Result**: 90%
 
 ### 10. Help and Documentation
 
@@ -453,7 +453,7 @@
 | 10.17 | Is it easy to access and return from the help system? | Yes |  |
 | 10.18 | Can users resume work where they left off after accessing help? | Yes |  |
 
-* **Result**: xx%
+* **Result**: 88%
 
 ### 11. Skills
 
@@ -471,7 +471,7 @@
 | 11.10 | Has auto-tabbing been avoided except when fields have fixed lengths or users are experienced? | Yes |  |
 | 11.11 | Are function keys or keyboard shortcuts reserved for generic, high-frequency, important functions? | No |  |
 
-* **Result**: xx%
+* **Result**: 54%
 
 ### 12. Pleasurable and Respectful Interaction with the User
 
@@ -484,7 +484,7 @@
 | 12.5 | Are typing requirements minimal for question and answer interfaces? | Yes |  |
 | 12.6 | Does the system complete unambiguous partial input on a data entry field? | Yes |  |
 
-* **Result**: xx%
+* **Result**: 100%
 
 ### 13. Privacy
 
@@ -496,7 +496,7 @@
 | 13.4 | Are protected areas invisible to other users? | Yes |  |
 | 13.5 | Is it possible to select what will be visible to other users? | Yes |  |
 
-* **Result**: xx%
+* **Result**: 100%
 
 ### 14. Accessibility
 
@@ -515,7 +515,7 @@
 | 14.11 | Components that have the same functionality within a set of content are identified consistently | Yes |  |
 | 14.12 | If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content. | Yes |  |
 
-* **Result**: xx%
+* **Result**: 50%
 
 ### 15. Localization
 
@@ -537,7 +537,7 @@
 | 15.14 | Validation of fields works properly (e.g. postal codes) | No |  |
 | 15.15 | Lists are sorted according to target language and region | Yes |  |
 
-* **Result**: xx%
+* **Result**: 69%
 
 ## Reliability
 
