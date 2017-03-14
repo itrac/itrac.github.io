@@ -1,5 +1,13 @@
 # EUD Technology Evaluation
 
+## Authors
+
+| Name | E-mail |
+|:-----|:------:|
+| [Claudia Melo](https://www.linkedin.com/in/claudiamelo) | claudiamelo@unb.br |
+| [Jonathan H. M. de Moraes](https://www.linkedin.com/in/jonathanhmaiademoraes) | jonathanhmaiademoraes@gmail.com |
+| [Marcelo Herton Pereira Ferreira](https://www.linkedin.com/in/marcelo-herton) | marcelohpf@gmail.com |
+
 ## Criterias
 
 ### Functional Characteristics
