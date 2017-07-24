@@ -7,7 +7,7 @@ _Apphysics_, ou **FísicApp**, é um sistema de apoio funcional ao estudo e apli
 O projeto proposto possui como características:
 
 * **_Free and Open Source Software_ (FOSS)**: O sistema será desenvolvido por uma equipe de alunos de engenharia de _software_ que acreditam nas premissas do _software_ livre. O produto e seu código-fonte serão disponibilizados para a comunidade desde os estágios iniciais de produção sob a licença [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.pt-br.html);
-* **_Open Data_**: Os dados mantidos pelo sistema serão disponibilizados para a comunidade, na íntegra, através de uma API RESTful. Mais detalhes sobre _open data_ é descrito na seção de [Sistemas para Dados Colaborativos](#sistemas-para-dados-colaborativos);
+* **_Open Data_**: Os dados mantidos pelo sistema serão disponibilizados para a comunidade, na íntegra, através de uma API RESTful.
 * **_Collaborative Data_**: Os dados mantidos pelo sistema serão atribuídos e mantidos de forma colaborativa por quaisquer interessados em contribuir com o projeto. Faz parte do escopo do projeto a adoção de medidas que fomentem a colaboração, incluindo a construção de um sistema de apoio que facilitará a aplicação de propostas para um público abrangente;
 * **_Courseware_**: O _software_ a ser desenvolvido será de cunho educacional. Faz parte do escopo do projeto a confecção de cursos, baseados nos dados mantidos pelo sistema, que apoiem e facilitem o ensino de física em escolas e universidades;
 * **_Science, Technology, Engineering, and Mathematics_ (STEM) _Collaborative Technology_**: O _software_ a ser desenvolvido promove a colaboração para as ciências exatas através de um meio eficiente de aprendizagem e pesquisa para o contexto de física.
@@ -26,7 +26,7 @@ A reportagem da [Carta Educação](http://www.cartaeducacao.com.br/reportagens/f
 
 O relatório do [Grupo PET-Física](http://www.if.ufrgs.br/gra/agenda/relatorio_a_comissao_de_graduacao.pdf) sobre a evasão no curso de graduação em física da UnB entre 1993 e 2007 descreve dados estatísticos alarmantes para o bacharelado. Em questionários fornecidos para alunos ativos e evadidos, a disciplina de Física 1 é listada por diversas vezes como uma das reprovações ocorridas durante o curso, indicando que os alunos possuem dificuldades em aprendizagem desde os estágios iniciais do curso.
 
-O reportagem da [Folha](http://www1.folha.uol.com.br/educacao/2016/10/1819158-sem-preparo-e-financiamento-3-em-10-alunos-largam-cursos-de-exatas.shtml) afirma que 3 em cada 10 alunos desistem de cursos de exatas devido a dificuldades de aprendizagem. Afirma-se que o apoio para alunos durante o início do curso é crucial para a redução do elevado índice de evasão.
+A reportagem da [Folha](http://www1.folha.uol.com.br/educacao/2016/10/1819158-sem-preparo-e-financiamento-3-em-10-alunos-largam-cursos-de-exatas.shtml) afirma que 3 em cada 10 alunos desistem de cursos de exatas devido a dificuldades de aprendizagem. Afirma-se que o apoio para alunos durante o início do curso é crucial para a redução do elevado índice de evasão.
 
 ## Contexto
 
@@ -40,11 +40,55 @@ O presente projeto estabelece diretrizes de pesquisa para os principais contexto
 
 ## Propostas de Pesquisa
 
+Três áreas de pesquisa são propostas para atuação no presente projeto. Tais pesquisas servirão de base para o desenvolvimento de um produto inovador, eficiente, acessível e de qualidade. São definidas como premissas da pesquisa:
+
+* Pelo menos o resumo e os resultados de todos os artigos deverão ser disponibilizados para o público aberto;
+* Todos os artigos deverão ser redigidos nos idiomas português e inglês;
+* Todos os artigos deverão ser produzidos utilizando a plataforma LaTeX;
+* Todos os artigos, em estado final, deverão ser consolidados em PDF e entregues para o ITRAC, como parte da entrega do projeto;
+* Ao fim da confecção dos artigos, os respectivos repositórios com o código-fonte dos artigos deverão ser entregues para o ITRAC, como parte da entrega do projeto;
+* ITRAC deverá fornecer consultoria e auditoria dos artigos durante seu desenvolvimento, cabendo ao mesmo a validação final das produções acadêmicas.
+
 ### Sistemas para Apoio a Educação
+
+O principal motivador do projeto está em apoiar a educação de física em ambientes de ensino como colégios de ensino fundamental e médio, cursos técnicos, faculdades, universidades e estudantes autônomos. Através da pesquisa, espera-se responder:
+
+* O que pesquisas anteriores afirmam acerca do ensino de física no Brasil?
+* Qual a situação atual do ensino de física em colégios públicos de ensino fundamental em Brasília?
+* Qual a situação atual do ensino de física em colégios públicos de ensino médio em Brasília?
+* Qual a situação atual do ensino de física na Universidade de Brasília?
+* Quais são as expectativas e opiniões de alunos e professores sobre a disciplina de física ofertada?
+* Quais propostas de melhoria pedagógica alunos e professores sugerem?
+* Quais propostas de inovação através de tecnologias acessíveis os alunos e professores sugerem?
+* Quais são as principais deficiências encontradas nas diversas abordagens de ensino de física em Brasília?
+* Quais tecnologias são atualmente empregadas para suprir as deficiências encontradas?
+* Quais pontos de inovação podem ser investidos para suprir as deficiências encontradas?
+* Quais são os perfis de usuário que utilizarão o _Apphysics_ em Brasília no contexto educacional?
+* Quais são os perfis de usuário que utilizarão o _Physics Cataloger_ em Brasília no contexto educacional?
 
 ### Sistemas para Apoio Científico
 
+Uma das características do projeto está em apoiar o estudo e o uso de conhecimento de física no dia-a-dia de alunos, pesquisadores, engenheiros e cientistas. Através da pesquisa, espera-se responder:
+
+* O que pesquisas anteriores ([como esta](http://ieeexplore.ieee.org/document/4543965/)) afirmam acerca de tecnologias colaborativas para STEM?
+* O que pesquisas anteriores afirmam acerca de tecnologias de apoio ao ambiente de estudo de aplicação em física?
+* Quais são as principais características esperadas em um produto de _software_ que apoie a colaboração em STEM?
+* Quais tecnologias são atualmente empregadas para promover as ciências exatas?
+* Quais pontos de inovação podem ser investidos para promover as ciências exatas? (em especial as que se aplicam ao contexto de física)
+* Quais são os perfis de usuário que utilizarão o _Apphysics_ no contexto científico?
+* Quais são os perfis de usuário que utilizarão o _Physics Cataloger_ no contexto científico?
+
 ### Sistemas de Dados Colaborativos
+
+A disponibilização de uma plataforma de dados colaborativos é uma iniciativa que promove a divulgação de conhecimento de forma dinâmica e acessível, crucial para a subsistência a longo prazo de um sistema apoiado majoritariamente em informação. Através da pesquisa, espera-se responder:
+
+* O que pesquisas anteriores afirmam acerca de dados colaborativos?
+* O que pesquisas anteriores afirmam acerca de plataformas de dados colaborativos?
+* Quais são as principais características esperadas em uma plataforma de dados colaborativos?
+* Quais são os principais problemas e soluções encontrados durante o uso e a manutenção de plataformas de dados colaborativos?
+* Quais tecnologias são atualmente utilizadas para manter dados colaborativos?
+* Quais pontos de inovação podem ser investidos no contexto de dados colaborativos?
+* Quais são os perfis de usuário que utilizarão o _Physics Cataloger_ no contexto de dados colaborativos?
 
 ## Proposta de Produto
 
