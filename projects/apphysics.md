@@ -92,8 +92,156 @@ A disponibilização de uma plataforma de dados colaborativos é uma iniciativa 
 
 ## Proposta de Produto
 
+O produto a ser desenvolvido no projeto são dois sistemas integrados:
+
+* **_Apphysics_ (FísicApp)**: Aplicativo para dispositivos móveis e _web_ capaz de:
+	* Apresentar um catálogo de domínios de conhecimento em física de forma eficiente e acessível;
+	* Apoiar a descoberta de equações físicas baseadas em atributos-filtro;
+	* Fornecer cursos de aprendizagem em domínios de conhecimento em física com qualidade e acessibilidade;
+	* Quaisquer funcionalidades descobertas durante as pesquisas que sejam de alto valor para o projeto e se adeque às características do aplicativo.
+* **_Physics Cataloger_ (Catalogador de Física)**: Sistema _web_ capaz de:
+	* Manter o catálogo de domínios de conhecimento em física de forma colaborativa, com simplicidade e acessibilidade;
+	* Manter os cursos de aprendizagem em domínios de conhecimento em física de forma colaborativa, com simplicidade e acessibilidade;
+	* Fornecer uma API RESTful aberta para desenvolvedores e colaboradores utilizarem dos dados mantidos pelo sistema;
+	* Quaisquer funcionalidades descobertas durante as pesquisas que sejam de alto valor para o projeto e se adeque às características do sistema.
+
 ### Requisitos
 
-### Arquitetura
+#### Épicos
 
-## Planejamento
+* **E1 - Catálogo de Domínios de Conhecimento em Física (CDCF)**
+* **E2 - Descoberta de Equações Físicas (DEF)**
+* **E3 - Cursos de Física (CF)**
+* Até dois épicos adicionais, de acordo com os resultados das pesquisas
+
+#### _Features_
+
+* **E1F1 - CRUD de CDCF**
+* **E1F2 - API Restful de CDCF**
+* **E1F3 - Colaboração em CDCF**
+* **E1F4 - CDCF em _Apphysics_**
+* **E2F1 - Algoritmo de Filtragem de Dados Dinâmicos**
+* **E2F2 - API Restful de DEF**
+* **E2F3 - DEF em _Apphysics_**
+* **E3F1 - CRUD de CF**
+* **E3F2 - Colaboração em CF**
+* **E3F3 - Interface _web_ de CF em _Apphysics_**
+* **E3F4 - Interface _mobile_ de CF em _Apphysics_**
+* _Features_ adicionais, de acordo com novos épicos concebidos de resultados das pesquisas
+
+## Propostas de Planejamento
+
+Três planejamentos distintos são propostos para o projeto. São eles:
+
+* **Planejamento com o Mínimo**: Considera-se que os fatores de investimento são baixos e o valor do produto é baixo;
+* **Planejamento em Escassez**: Considera-se que os fatores de investimento são baixos e o valor do produto é alto;
+* **Planejamento em Condições Ótimas**: Considera-se que os fatores de investimento são altos e o valor do produto é alto.
+
+### Planejamento com o Mínimo
+
+* **Período mínimo de realização do projeto**: 18 meses
+* **Período máximo de realização do projeto**: 24 meses
+* **Custo mínimo do projeto**: R$ 20.000,00
+* **Custo máximo do projeto**: R$ 26.600,00
+* **Quantidade de integrantes no time**: 1
+* **Quantidade de entregas mínimas de artigos**: 3
+* **Roadmap**:
+
+|Meses após o Ínicio|Entrega|Marco|
+|:-:|:-:|:-:|
+|1|Planejamento de Pesquisa||
+|2|Entrega/Validação de Artigos||
+|3|Entrega/Validação de Artigos||
+|4|Entrega/Validação de Artigos||
+|5|Entrega/Validação de Artigos||
+|6|Entrega/Validação de Artigos|Fim do Período de Pesquisa|
+|6||Início do Desenvolvimento|
+|7|Entrega da Arquitetura||
+|8|Entrega da E1F1|_Physics Cataloger 0.1_|
+|9|Entrega da E1F2|_Physics Cataloger 0.2_|
+|10|Entrega da E1F3|_Physics Cataloger 0.3_|
+|11|Entrega da E1F4|_Apphysics 0.2_|
+|11||Término do E1|
+|12|Entrega da E2F1|_Physics Cataloger 0.5_, _Apphysics 0.4_|
+|13|Entrega da E2F2|_Physics Cataloger 0.6_|
+|14|Entrega da E2F3|_Apphysics 0.6_|
+|14||Término do E2|
+|15|Entrega da E3F1|_Physics Cataloger 0.8_|
+|16|Entrega da E3F2|_Physics Cataloger 1.0_|
+|16||_Physics Cataloger_ plenamente produzido|
+|17|Entrega da E3F3|_Apphysics 0.8_|
+|18|Entrega da E3F4|_Apphysics 1.0_|
+|18||_Apphysics_ plenamente produzido|
+|18||Término do Projeto|
+
+### Planejamento em Escassez
+
+* **Período mínimo de realização do projeto**: 9 meses
+* **Período máximo de realização do projeto**: 12 meses
+* **Custo mínimo do projeto**: R$ 22.500,00
+* **Custo máximo do projeto**: R$ 30.000,00
+* **Quantidade mínima de integrantes no time**: 1
+* **Quantidade máxima de integrantes no time**: 2
+* **Quantidade de entregas mínimas de artigos**: 3
+* **Roadmap**:
+
+|Meses após o Ínicio|Entrega|Marco|
+|:-:|:-:|:-:|
+|1|Planejamento de Pesquisa||
+|2|Entrega/Validação de Artigos||
+|3|Entrega/Validação de Artigos||
+|3|Entrega/Validação de Artigos|Fim do Período de Pesquisa|
+|3||Início do Desenvolvimento|
+|4|Entrega da Arquitetura||
+|5|Entrega da E1F1|_Physics Cataloger 0.1_|
+|5|Entrega da E1F2|_Physics Cataloger 0.2_|
+|6|Entrega da E1F3|_Physics Cataloger 0.3_|
+|6|Entrega da E1F4|_Apphysics 0.2_|
+|6||Término do E1|
+|7|Entrega da E2F1|_Physics Cataloger 0.5_, _Apphysics 0.4_|
+|7|Entrega da E2F2|_Physics Cataloger 0.6_|
+|7|Entrega da E2F3|_Apphysics 0.6_|
+|7||Término do E2|
+|8|Entrega da E3F1|_Physics Cataloger 0.8_|
+|8|Entrega da E3F2|_Physics Cataloger 1.0_|
+|8||_Physics Cataloger_ plenamente produzido|
+|9|Entrega da E3F3|_Apphysics 0.8_|
+|9|Entrega da E3F4|_Apphysics 1.0_|
+|9||_Apphysics_ plenamente produzido|
+|9||Término do Projeto|
+
+### Planejamento em Condições Ótimas
+
+* **Período mínimo de realização do projeto**: 6 meses
+* **Período máximo de realização do projeto**: 8 meses
+* **Custo mínimo do projeto**: R$ 48.000,00
+* **Custo máximo do projeto**: R$ 64.000,00
+* **Quantidade mínima de integrantes no time**: 3
+* **Quantidade máxima de integrantes no time**: 4
+* **Quantidade de entregas mínimas de artigos**: 6
+* **Roadmap**:
+
+|Meses após o Ínicio|Entrega|Marco|
+|:-:|:-:|:-:|
+|1|Planejamento de Pesquisa||
+|2|Entrega/Validação de Artigos||
+|3|Entrega/Validação de Artigos||
+|3|Entrega/Validação de Artigos|Fim do Período de Pesquisa|
+|3||Início do Desenvolvimento|
+|3|Entrega da Arquitetura||
+|4|Entrega da E1F1|_Physics Cataloger 0.1_|
+|4|Entrega da E1F2|_Physics Cataloger 0.2_|
+|4|Entrega da E1F3|_Physics Cataloger 0.3_|
+|4|Entrega da E1F4|_Apphysics 0.2_|
+|4||Término do E1|
+|5|Entrega da E2F1|_Physics Cataloger 0.5_, _Apphysics 0.4_|
+|5|Entrega da E2F2|_Physics Cataloger 0.6_|
+|5|Entrega da E2F3|_Apphysics 0.6_|
+|5||Término do E2|
+|6|Entrega da E3F1|_Physics Cataloger 0.8_|
+|6|Entrega da E3F2|_Physics Cataloger 1.0_|
+|6||_Physics Cataloger_ plenamente produzido|
+|6|Entrega da E3F3|_Apphysics 0.8_|
+|6|Entrega da E3F4|_Apphysics 1.0_|
+|6||_Apphysics_ plenamente produzido|
+|6||Término do Projeto|
